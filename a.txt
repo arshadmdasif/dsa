@@ -1,0 +1,3719 @@
+# DSA Pattern Mastery Plan + Original Question Bank
+
+## How to use this plan
+- One pattern per day.
+- Solve the selected 3–4 questions independently in Java.
+- For each question: explain brute force, optimized approach, why the pattern fits, time/space complexity, and edge cases.
+- The selected questions are a first-pass pattern mastery set, not a claim that 3–4 questions exhaust every variation.
+- If a pattern has fewer than 3 questions listed in the original source, all listed questions are selected.
+
+**Source-sheet count:** 18 topics, 113 numbered pattern sections, 761 listed entries (the earlier 761 count is the prior tally; repeated problems exist).
+**Selected first-pass questions:** 442.
+
+## List 1 — One pattern per day
+
+### Day 1 — Two Pointers: 1. Opposite Direction Pointers (6)
+- [ ] **Valid Palindrome** — LeetCode 125
+- [ ] **Container With Most Water** — LeetCode 11
+- [ ] **3Sum** — LeetCode 15
+- [ ] **4Sum** — LeetCode 18
+
+### Day 2 — Two Pointers: 2. Same Direction / Slow & Fast Pointers (6)
+- [ ] **Remove Duplicates from Sorted Array** — LeetCode 26
+- [ ] **Move Zeroes** — LeetCode 283
+- [ ] **Remove Duplicates from Sorted Array II** — LeetCode 80
+- [ ] **Sort Array By Parity** — LeetCode 905
+
+### Day 3 — Two Pointers: 3. Sliding Window / Two Pointers (5)
+- [ ] **Longest Substring Without Repeating Characters** — LeetCode 3
+- [ ] **Minimum Size Subarray Sum** — LeetCode 209
+- [ ] **Subarray Product Less Than K** — LeetCode 713
+- [ ] **Minimum Window Substring** — LeetCode 76
+
+### Day 4 — Two Pointers: 4. Fast & Slow Pointers (Linked List) (5)
+- [ ] **Linked List Cycle** — LeetCode 141
+- [ ] **Linked List Cycle II** — LeetCode 142
+- [ ] **Remove Nth Node From End of List** — LeetCode 19
+- [ ] **Reorder List** — LeetCode 143
+
+### Day 5 — Two Pointers: 5. Advanced Two Pointers (5)
+- [ ] **Trapping Rain Water** — LeetCode 42
+- [ ] **Sort Colors** — LeetCode 75
+- [ ] **Longest Mountain in Array** — LeetCode 845
+- [ ] **Squares of a Sorted Array** — LeetCode 977
+
+### Day 6 — Two Pointers: 6. Hard / Interview Challenge (3)
+- [ ] **Number of Subsequences That Satisfy the Given Sum Condition** — LeetCode 1498
+- [ ] **Smallest Range Covering Elements from K Lists** — LeetCode 632
+- [ ] **Trapping Rain Water (Optimized Two Pointers)** — LeetCode 42
+
+### Day 7 — Stack: 1. Stack Fundamentals & Implementation (6)
+- [ ] **Valid Parentheses** — LeetCode 20
+- [ ] **Implement Stack using Queues** — LeetCode 225
+- [ ] **Implement Queue using Stacks** — LeetCode 232
+- [ ] **Simplify Path** — LeetCode 71
+
+### Day 8 — Stack: 2. Monotonic Stack — Next Greater / Smaller (7)
+- [ ] **Next Greater Element I** — LeetCode 496
+- [ ] **Daily Temperatures** — LeetCode 739
+- [ ] **Number of Visible People in a Queue** — LeetCode 1944
+- [ ] **Maximal Rectangle** — LeetCode 85
+
+### Day 9 — Stack: 3. Expression Evaluation & Parsing (5)
+- [ ] **Basic Calculator** — LeetCode 224
+- [ ] **Basic Calculator II** — LeetCode 227
+- [ ] **Decode String** — LeetCode 394
+- [ ] **Mini Parser** — LeetCode 385
+
+### Day 10 — Stack: 4. Stack + String Problems (5)
+- [ ] **Remove All Adjacent Duplicates in String** — LeetCode 1047
+- [ ] **Remove All Adjacent Duplicates in String II** — LeetCode 1209
+- [ ] **Longest Valid Parentheses** — LeetCode 32
+- [ ] **Remove K Digits** — LeetCode 402
+
+### Day 11 — Stack: 5. Advanced Monotonic Stack & Contribution Technique (5)
+- [ ] **Sum of Subarray Minimums** — LeetCode 907
+- [ ] **Sum of Subarray Ranges** — LeetCode 2104
+- [ ] **132 Pattern** — LeetCode 456
+- [ ] **Car Fleet II** — LeetCode 1776
+
+### Day 12 — Stack: 6. Design & Advanced Stack Applications (7)
+- [ ] **Flatten Nested List Iterator** — LeetCode 341
+- [ ] **Maximum Frequency Stack** — LeetCode 895
+- [ ] **132 Pattern** — LeetCode 456
+- [ ] **Car Fleet** — LeetCode 853
+
+### Day 13 — 1-D Dynamic Programming: 1. Basic 1-D DP (6 Questions)
+- [ ] **Climbing Stairs** — LeetCode 70
+- [ ] **N-th Tribonacci Number** — LeetCode 1137
+- [ ] **Fibonacci Number** — LeetCode 509
+- [ ] **Count Number of Texts** — LeetCode 2266
+
+### Day 14 — 1-D Dynamic Programming: 2. Take / Not Take DP (7 Questions)
+- [ ] **House Robber** — LeetCode 198
+- [ ] **Delete and Earn** — LeetCode 740
+- [ ] **Solving Questions With Brainpower** — LeetCode 2140
+- [ ] **Stone Game III** — LeetCode 1406
+
+### Day 15 — 1-D Dynamic Programming: 3. Kadane's Algorithm & Subarray DP (5 Questions)
+- [ ] **Maximum Subarray** — LeetCode 53
+- [ ] **Maximum Sum Circular Subarray** — LeetCode 918
+- [ ] **Maximum Absolute Sum of Any Subarray** — LeetCode 1749
+- [ ] **K-Concatenation Maximum Sum** — LeetCode 1191
+
+### Day 16 — 1-D Dynamic Programming: 4. Longest Increasing Subsequence (LIS) Pattern (7 Questions)
+- [ ] **Longest Increasing Subsequence** — LeetCode 300
+- [ ] **Russian Doll Envelopes** — LeetCode 354
+- [ ] **Best Team With No Conflicts** — LeetCode 1626
+- [ ] **Delete Columns to Make Sorted III** — LeetCode 960
+
+### Day 17 — 1-D Dynamic Programming: 5. String / Subsequence 1-D DP (6 Questions)
+- [ ] **Longest Palindromic Substring** — LeetCode 5
+- [ ] **Longest Palindromic Subsequence** — LeetCode 516
+- [ ] **Is Subsequence** — LeetCode 392
+- [ ] **Length of Longest Fibonacci Subsequence** — LeetCode 873
+
+### Day 18 — 1-D Dynamic Programming: 6. Coin Change & Unbounded Knapsack (5 Questions)
+- [ ] **Coin Change** — LeetCode 322
+- [ ] **Coin Change II** — LeetCode 518
+- [ ] **Combination Sum IV** — LeetCode 377
+- [ ] **Form Largest Integer With Digits That Add Up to Target** — LeetCode 1449
+
+### Day 19 — 1-D Dynamic Programming: 7. Advanced 1-D DP (9 Questions)
+- [ ] **Split Array Largest Sum** — LeetCode 410
+- [ ] **Largest Divisible Subset** — LeetCode 368
+- [ ] **Reducing Dishes** — LeetCode 1402
+- [ ] **Frog Jump** — LeetCode 403
+
+### Day 20 — Binary Search: Pattern 1: Basic Binary Search
+- [ ] **Binary Search** — LeetCode 704
+- [ ] **Find First and Last Position of Element** — LeetCode 34
+- [ ] **First Bad Version** — LeetCode 278
+- [ ] **Valid Perfect Square** — LeetCode 367
+
+### Day 21 — Binary Search: Pattern 2: Rotated Sorted Array
+- [ ] **Search in Rotated Sorted Array** — LeetCode 33
+- [ ] **Find Minimum in Rotated Sorted Array** — LeetCode 153
+- [ ] **Find Minimum in Rotated Sorted Array II** — LeetCode 154
+- [ ] **Single Element in a Sorted Array** — LeetCode 540
+
+### Day 22 — Binary Search: Pattern 3: Binary Search on Answer
+- [ ] **Koko Eating Bananas** — LeetCode 875
+- [ ] **Minimum Number of Days to Make Bouquets** — LeetCode 1482
+- [ ] **Split Array Largest Sum** — LeetCode 410
+- [ ] **Kth Smallest Product of Two Sorted Arrays** — LeetCode 2040
+
+### Day 23 — Binary Search: Pattern 4: Binary Search on 2D Matrix
+- [ ] **Search a 2D Matrix** — LeetCode 74
+- [ ] **Search a 2D Matrix II** — LeetCode 240
+  - Note: original section lists only 2 question(s) in its main group; complete all listed ones.
+
+### Day 24 — Binary Search: Pattern 5: Peak / Mountain Array
+- [ ] **Find Peak Element** — LeetCode 162
+- [ ] **Peak Index in a Mountain Array** — LeetCode 852
+- [ ] **Find in Mountain Array** — LeetCode 1095
+
+### Day 25 — Binary Search: Pattern 6: Advanced Binary Search
+- [ ] **Median of Two Sorted Arrays** — LeetCode 4
+- [ ] **Kth Smallest Element in a Sorted Matrix** — LeetCode 378
+- [ ] **Successful Pairs of Spells and Potions** — LeetCode 2300
+- [ ] **Time Based Key-Value Store** — LeetCode 981
+
+### Day 26 — Sliding Window: Pattern 1: Fixed Size Sliding Window
+- [ ] **Maximum Average Subarray I** — LeetCode 643
+- [ ] **Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold** — LeetCode 1343
+- [ ] **Contains Duplicate II** — LeetCode 219
+- [ ] **Permutation in String** — LeetCode 567
+
+### Day 27 — Sliding Window: Pattern 2: Variable Size – Longest Subarray / Substring
+- [ ] **Longest Substring Without Repeating Characters** — LeetCode 3
+- [ ] **Max Consecutive Ones III** — LeetCode 1004
+- [ ] **Maximum Number of Vowels in a Substring of Given Length** — LeetCode 1456
+- [ ] **Maximum Consecutive Answers** — LeetCode 2024
+
+### Day 28 — Sliding Window: Pattern 3: Minimum Window / Shortest Subarray
+- [ ] **Minimum Size Subarray Sum** — LeetCode 209
+- [ ] **Minimum Window Substring** — LeetCode 76
+- [ ] **Minimum Operations to Reduce X to Zero** — LeetCode 1658
+- [ ] **Take K of Each Character From Left and Right** — LeetCode 2516
+
+### Day 29 — Sliding Window: Pattern 4: Frequency Map + Sliding Window
+- [ ] **Permutation in String** — LeetCode 567
+- [ ] **Find All Anagrams in a String** — LeetCode 438
+- [ ] **Subarrays with K Different Integers** — LeetCode 992
+- [ ] **Number of Substrings Containing All Three Characters** — LeetCode 1358
+
+### Day 30 — Sliding Window: Pattern 5: Counting Subarrays with Sliding Window
+- [ ] **Binary Subarrays With Sum** — LeetCode 930
+- [ ] **Count Number of Nice Subarrays** — LeetCode 1248
+- [ ] **Subarrays with K Different Integers** — LeetCode 992
+- [ ] **Count Subarrays Where Max Element Appears at Least K Times** — LeetCode 2962
+
+### Day 31 — Sliding Window: Pattern 6: Advanced Sliding Window
+- [ ] **Sliding Window Maximum** — LeetCode 239
+- [ ] **Shortest Subarray with Sum at Least K** — LeetCode 862
+- [ ] **Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit** — LeetCode 1438
+- [ ] **Max Value of Equation** — LeetCode 1499
+
+### Day 32 — Linked List: Pattern 1: Basic Linked List Operations
+- [ ] **Design Linked List** — LeetCode 707
+- [ ] **Remove Duplicates from Sorted List** — LeetCode 83
+- [ ] **Remove Duplicates from Sorted List II** — LeetCode 82
+- [ ] **Middle of the Linked List** — LeetCode 876
+
+### Day 33 — Linked List: Pattern 2: Two Pointers – Fast & Slow
+- [ ] **Linked List Cycle** — LeetCode 141
+- [ ] **Happy Number** — LeetCode 202
+- [ ] **Reorder List** — LeetCode 143
+- [ ] **Intersection of Two Linked Lists** — LeetCode 160
+
+### Day 34 — Linked List: Pattern 3: Reversal of Linked List
+- [ ] **Reverse Linked List** — LeetCode 206
+- [ ] **Reverse Linked List II** — LeetCode 92
+- [ ] **Swap Nodes in Pairs** — LeetCode 24
+- [ ] **Reverse Nodes in Even Length Groups** — LeetCode 2074
+
+### Day 35 — Linked List: Pattern 4: Merge and Sorting
+- [ ] **Merge Two Sorted Lists** — LeetCode 21
+- [ ] **Merge In Between Linked Lists** — LeetCode 1669
+- [ ] **Sort List** — LeetCode 148
+- [ ] **Insertion Sort List** — LeetCode 147
+
+### Day 36 — Linked List: Pattern 5: Linked List with Extra Logic
+- [ ] **Add Two Numbers** — LeetCode 2
+- [ ] **Rotate List** — LeetCode 61
+- [ ] **Partition List** — LeetCode 86
+- [ ] **Odd Even Linked List** — LeetCode 328
+
+### Day 37 — Linked List: Pattern 6: Random Pointer / Special Linked List
+- [ ] **Copy List with Random Pointer** — LeetCode 138
+- [ ] **Flatten a Multilevel Doubly Linked List** — LeetCode 430
+- [ ] **Design Browser History** — LeetCode 1472
+- [ ] **LRU Cache** — LeetCode 146
+
+### Day 38 — Math & Geometry: Pattern 1: Basic Mathematics
+- [ ] **Palindrome Number** — LeetCode 9
+- [ ] **Integer to Roman** — LeetCode 12
+- [ ] **Factorial Trailing Zeroes** — LeetCode 172
+- [ ] **Add Digits** — LeetCode 258
+
+### Day 39 — Math & Geometry: Pattern 2: Number Theory – GCD, LCM, Primes
+- [ ] **Count Primes** — LeetCode 204
+- [ ] **Find Greatest Common Divisor of Array** — LeetCode 1979
+- [ ] **Ugly Number** — LeetCode 263
+- [ ] **Prime Arrangements** — LeetCode 1175
+
+### Day 40 — Math & Geometry: Pattern 3: Combinatorics and Probability
+- [ ] **Pascal's Triangle** — LeetCode 118
+- [ ] **Unique Paths** — LeetCode 62
+- [ ] **Soup Servings** — LeetCode 808
+- [ ] **Nth Person Gets Nth Seat** — LeetCode 1227
+
+### Day 41 — Math & Geometry: Pattern 4: Modular Arithmetic and Fast Power
+- [ ] **Pow(x, n)** — LeetCode 50
+- [ ] **Super Pow** — LeetCode 372
+- [ ] **Mirror Reflection** — LeetCode 858
+- [ ] **Angle Between Hands of a Clock** — LeetCode 1344
+
+### Day 42 — Math & Geometry: Pattern 5: Geometry – Coordinates and Distance
+- [ ] **Valid Square** — LeetCode 593
+- [ ] **Minimum Area Rectangle** — LeetCode 939
+- [ ] **Max Points on a Line** — LeetCode 149
+- [ ] **Detect Squares** — LeetCode 2013
+
+### Day 43 — Math & Geometry: Pattern 6: Matrix and Grid Geometry
+- [ ] **Rotate Image** — LeetCode 48
+- [ ] **Convex Polygon** — LeetCode 587
+- [ ] **Minimum Moves to Equal Array Elements II** — LeetCode 462
+- [ ] **Advanced Problems + Revision** — LeetCode 10
+
+### Day 44 — Bit Manipulation: Pattern 1: Basic Bit Manipulation
+- [ ] **Single Number** — LeetCode 136
+- [ ] **Counting Bits** — LeetCode 338
+- [ ] **Power of Four** — LeetCode 342
+- [ ] **Hamming Distance** — LeetCode 461
+
+### Day 45 — Bit Manipulation: Pattern 2: XOR-Based Problems
+- [ ] **Single Number II** — LeetCode 137
+- [ ] **Missing Number** — LeetCode 268
+- [ ] **Decode XORed Array** — LeetCode 1720
+- [ ] **Find XOR of Numbers from L to R** — GFG
+
+### Day 46 — Bit Manipulation: Pattern 3: Bit Masking
+- [ ] **Subsets** — LeetCode 78
+- [ ] **Maximum Product of Word Lengths** — LeetCode 318
+- [ ] **Can I Win** — LeetCode 464
+- [ ] **Smallest Sufficient Team** — LeetCode 1125
+
+### Day 47 — Bit Manipulation: Pattern 4: Bitwise AND / OR Problems
+- [ ] **Bitwise AND of Numbers Range** — LeetCode 201
+- [ ] **Maximum XOR With an Element From Array** — LeetCode 1707
+- [ ] **Sum of Two Integers** — LeetCode 371
+- [ ] **Longest Nice Subarray** — LeetCode 2401
+
+### Day 48 — Bit Manipulation: Pattern 5: Advanced Bit Manipulation
+- [ ] **Reverse Integer** — LeetCode 7
+- [ ] **Add Binary** — LeetCode 67
+- [ ] **Minimum One Bit Operations to Make Integers Zero** — LeetCode 1611
+- [ ] **Maximum XOR Product** — LeetCode 2939
+
+### Day 49 — Bit Manipulation: Pattern 6: Advanced Bitmask DP
+- [ ] **Traveling Salesman Problem** — GFG
+- [ ] **Shortest Path Visiting All Nodes** — LeetCode 847
+- [ ] **Number of Ways to Wear Different Hats to Each Other** — LeetCode 1434
+- [ ] **Maximum Students Taking Exam** — LeetCode 1349
+
+### Day 50 — Advanced Graphs: Pattern 1: Advanced Shortest Path
+- [ ] **Network Delay Time** — LeetCode 743
+- [ ] **Path with Maximum Probability** — LeetCode 1514
+- [ ] **Shortest Path Visiting All Nodes** — LeetCode 847
+- [ ] **Minimum Obstacle Removal to Reach Corner** — LeetCode 2290
+
+### Day 51 — Advanced Graphs: Pattern 2: Disjoint Set Union (DSU) – Advanced
+- [ ] **Redundant Connection** — LeetCode 684
+- [ ] **Accounts Merge** — LeetCode 721
+- [ ] **Checking Existence of Edge Length Limited Paths** — LeetCode 1697
+- [ ] **Minimize Malware Spread** — LeetCode 924
+
+### Day 52 — Advanced Graphs: Pattern 3: Minimum Spanning Tree (MST)
+- [ ] **Min Cost to Connect All Points** — LeetCode 1584
+- [ ] **Connecting Cities With Minimum Cost** — LeetCode 1135
+- [ ] **Optimize Water Distribution in a Village** — LeetCode 1168
+- [ ] **Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree** — LeetCode 1489
+
+### Day 53 — Advanced Graphs: Pattern 4: Strongly Connected Components (SCC)
+- [ ] **Critical Connections in a Network** — LeetCode 1192
+- [ ] **Maximum Employees to Be Invited to a Meeting** — LeetCode 2127
+- [ ] **Longest Cycle in a Graph** — LeetCode 2360
+- [ ] **Find Eventual Safe States** — LeetCode 802
+
+### Day 54 — Advanced Graphs: Pattern 5: Bridges and Articulation Points
+- [ ] **Critical Connections in a Network** — LeetCode 1192
+- [ ] **Minimum Number of Days to Disconnect Island** — LeetCode 1568
+  - Note: original section lists only 2 question(s) in its main group; complete all listed ones.
+
+### Day 55 — Advanced Graphs: Pattern 6: Topological Sort – Advanced
+- [ ] **Course Schedule II** — LeetCode 210
+- [ ] **Alien Dictionary** — GFG
+- [ ] **Parallel Courses** — LeetCode 1136
+- [ ] **Find All Possible Recipes from Given Supplies** — LeetCode 2115
+
+### Day 56 — Advanced Graphs: Pattern 7: Eulerian Path and Circuit
+- [ ] **Reconstruct Itinerary** — LeetCode 332
+- [ ] **Valid Arrangement of Pairs** — LeetCode 2097
+- [ ] **Cracking the Safe** — LeetCode 753
+
+### Day 57 — Advanced Graphs: Pattern 8: Advanced Graph Traversal
+- [ ] **Word Ladder** — LeetCode 127
+- [ ] **Minimum Cost to Reach Destination in Time** — LeetCode 1928
+- [ ] **Number of Good Paths** — LeetCode 2421
+- [ ] **Number of Ways to Arrive at Destination** — LeetCode 1976
+
+### Day 58 — 2-D Dynamic Programming: Pattern 1: Grid-Based DP
+- [ ] **Unique Paths** — LeetCode 62
+- [ ] **Minimum Path Sum** — LeetCode 64
+- [ ] **Cherry Pickup II** — LeetCode 1463
+- [ ] **Maximum Falling Path Sum** — GFG
+
+### Day 59 — 2-D Dynamic Programming: Pattern 2: 0/1 Knapsack DP
+- [ ] **0/1 Knapsack** — GFG
+- [ ] **Target Sum** — LeetCode 494
+- [ ] **Ones and Zeroes** — LeetCode 474
+- [ ] **Tallest Billboard** — LeetCode 956
+
+### Day 60 — 2-D Dynamic Programming: Pattern 3: Unbounded Knapsack DP
+- [ ] **Coin Change** — LeetCode 322
+- [ ] **Coin Change II** — LeetCode 518
+- [ ] **Rod Cutting** — GFG
+- [ ] **Minimum Cost For Tickets** — LeetCode 983
+
+### Day 61 — 2-D Dynamic Programming: Pattern 4: Longest Common Subsequence (LCS)
+- [ ] **Longest Common Subsequence** — LeetCode 1143
+- [ ] **Shortest Common Supersequence** — LeetCode 1092
+- [ ] **Minimum ASCII Delete Sum for Two Strings** — LeetCode 712
+- [ ] **Minimum Insertion Steps to Make a String Palindrome** — LeetCode 1312
+
+### Day 62 — 2-D Dynamic Programming: Pattern 5: Edit Distance / String DP
+- [ ] **Edit Distance** — LeetCode 72
+- [ ] **Interleaving String** — LeetCode 97
+- [ ] **Regular Expression Matching** — LeetCode 10
+- [ ] **Is Subsequence** — LeetCode 392
+
+### Day 63 — 2-D Dynamic Programming: Pattern 6: Longest Increasing Subsequence – 2D Approach
+- [ ] **Longest Increasing Subsequence** — LeetCode 300
+- [ ] **Russian Doll Envelopes** — LeetCode 354
+- [ ] **Maximum Length of Pair Chain** — LeetCode 646
+- [ ] **Number of Longest Increasing Subsequence** — LeetCode 673
+
+### Day 64 — 2-D Dynamic Programming: Pattern 7: Interval DP / Partition DP
+- [ ] **Burst Balloons** — LeetCode 312
+- [ ] **Strange Printer** — LeetCode 664
+- [ ] **Minimum Cost to Cut a Stick** — LeetCode 1547
+- [ ] **Minimum Cost Tree From Leaf Values** — LeetCode 1130
+
+### Day 65 — 2-D Dynamic Programming: Pattern 8: State DP / Other Advanced Problems
+- [ ] **Best Time to Buy and Sell Stock III** — LeetCode 123
+- [ ] **Best Time to Buy and Sell Stock with Cooldown** — LeetCode 309
+- [ ] **Maximal Square** — LeetCode 221
+- [ ] **Number of Paths with Max Score** — LeetCode 1301
+
+### Day 66 — Trees: Pattern 1: Binary Tree Fundamentals
+- [ ] **Binary Tree Inorder Traversal** — LeetCode 94
+- [ ] **Binary Tree Level Order Traversal** — LeetCode 102
+- [ ] **Minimum Depth of Binary Tree** — LeetCode 111
+- [ ] **Invert Binary Tree** — LeetCode 226
+
+### Day 67 — Trees: Pattern 2: DFS – Tree Recursion
+- [ ] **Diameter of Binary Tree** — LeetCode 543
+- [ ] **Path Sum** — LeetCode 112
+- [ ] **Sum Root to Leaf Numbers** — LeetCode 129
+- [ ] **Binary Tree Paths** — LeetCode 257
+
+### Day 68 — Trees: Pattern 3: BFS – Level Order / Tree Views
+- [ ] **Binary Tree Zigzag Level Order Traversal** — LeetCode 103
+- [ ] **Average of Levels in Binary Tree** — LeetCode 637
+- [ ] **Find Largest Value in Each Tree Row** — LeetCode 515
+- [ ] **Maximum Width of Binary Tree** — LeetCode 662
+
+### Day 69 — Trees: Pattern 4: Lowest Common Ancestor (LCA)
+- [ ] **Lowest Common Ancestor of a Binary Tree** — LeetCode 236
+- [ ] **Lowest Common Ancestor of a BST** — LeetCode 235
+- [ ] **All Nodes Distance K in Binary Tree** — LeetCode 863
+
+### Day 70 — Trees: Pattern 5: Binary Search Tree (BST)
+- [ ] **Search in a Binary Search Tree** — LeetCode 700
+- [ ] **Delete Node in a BST** — LeetCode 450
+- [ ] **Convert Sorted Array to Binary Search Tree** — LeetCode 108
+- [ ] **Recover Binary Search Tree** — LeetCode 99
+
+### Day 71 — Trees: Pattern 6: Tree Construction & Serialization
+- [ ] **Construct Binary Tree from Preorder and Inorder Traversal** — LeetCode 105
+- [ ] **Construct Binary Tree from Inorder and Postorder Traversal** — LeetCode 106
+- [ ] **Flatten Binary Tree to Linked List** — LeetCode 114
+- [ ] **Populating Next Right Pointers in Each Node** — LeetCode 116
+
+### Day 72 — Tries: Pattern 1: Trie Fundamentals
+- [ ] **Implement Trie (Prefix Tree)** — LeetCode 208
+- [ ] **Design Add and Search Words Data Structure** — LeetCode 211
+- [ ] **Map Sum Pairs** — LeetCode 677
+- [ ] **Prefix and Suffix Search** — LeetCode 745
+
+### Day 73 — Tries: Pattern 2: Trie + DFS / Backtracking
+- [ ] **Word Search II** — LeetCode 212
+- [ ] **Word Search** — LeetCode 79
+- [ ] **Word Squares** — LeetCode 425
+- [ ] **Concatenated Words** — LeetCode 472
+
+### Day 74 — Tries: Pattern 3: Trie + Bit Manipulation (XOR)
+- [ ] **Maximum XOR of Two Numbers in an Array** — LeetCode 421
+- [ ] **Maximum XOR With an Element From Array** — LeetCode 1707
+- [ ] **Count Pairs With XOR in a Range** — LeetCode 1803
+- [ ] **Maximum Strong Pair XOR II** — LeetCode 2935
+
+### Day 75 — Tries: Pattern 4: Prefix Search / Dictionary
+- [ ] **Longest Word in Dictionary** — LeetCode 720
+- [ ] **Stream of Characters** — LeetCode 1032
+- [ ] **Short Encoding of Words** — LeetCode 820
+- [ ] **Prefix Count** — LeetCode 2185
+
+### Day 76 — Backtracking: Pattern 1: Basic Backtracking – Subsets
+- [ ] **Subsets** — LeetCode 78
+- [ ] **Combination Sum** — LeetCode 39
+- [ ] **Combination Sum III** — LeetCode 216
+- [ ] **Generate Parentheses** — LeetCode 22
+
+### Day 77 — Backtracking: Pattern 2: Permutations
+- [ ] **Permutations** — LeetCode 46
+- [ ] **Permutations II** — LeetCode 47
+- [ ] **Beautiful Arrangement** — LeetCode 526
+- [ ] **Matchsticks to Square** — LeetCode 473
+
+### Day 78 — Backtracking: Pattern 3: String Backtracking
+- [ ] **Palindrome Partitioning** — LeetCode 131
+- [ ] **Restore IP Addresses** — LeetCode 93
+- [ ] **Word Break II** — LeetCode 140
+- [ ] **Letter Case Permutation** — LeetCode 784
+
+### Day 79 — Backtracking: Pattern 4: Grid / Matrix Backtracking
+- [ ] **Word Search** — LeetCode 79
+- [ ] **Word Search II** — LeetCode 212
+- [ ] **Sudoku Solver** — LeetCode 37
+- [ ] **Number of Paths with Maximum Score** — LeetCode 1301
+
+### Day 80 — Backtracking: Pattern 5: Classic Backtracking Problems
+- [ ] **N-Queens** — LeetCode 51
+- [ ] **N-Queens II** — LeetCode 52
+- [ ] **Rat in a Maze** — GFG
+- [ ] **Word Ladder** — LeetCode 127
+
+### Day 81 — Backtracking: Pattern 6: Advanced Backtracking + Pruning
+- [ ] **Partition to K Equal Sum Subsets** — LeetCode 698
+- [ ] **The Number of Beautiful Subsets** — LeetCode 2597
+- [ ] **Splitting a String Into Descending Consecutive Values** — LeetCode 1849
+- [ ] **Optimal Account Balancing** — LeetCode 465
+
+### Day 82 — Heaps / Priority Queue: Pattern 1: Heap Fundamentals
+- [ ] **Kth Largest Element in an Array** — LeetCode 215
+- [ ] **Kth Smallest Element in a Sorted Matrix** — LeetCode 378
+- [ ] **Kth Largest Element in a Stream** — LeetCode 703
+- [ ] **Sort an Array** — LeetCode 912
+
+### Day 83 — Heaps / Priority Queue: Pattern 2: Top K Elements
+- [ ] **Top K Frequent Elements** — LeetCode 347
+- [ ] **K Closest Points to Origin** — LeetCode 973
+- [ ] **Find K Pairs with Smallest Sums** — LeetCode 373
+- [ ] **Reorganize String** — LeetCode 767
+
+### Day 84 — Heaps / Priority Queue: Pattern 3: K-way Merge
+- [ ] **Merge K Sorted Lists** — LeetCode 23
+- [ ] **Smallest Range Covering Elements from K Lists** — LeetCode 632
+- [ ] **Find K Pairs with Smallest Sums** — LeetCode 373
+- [ ] **Kth Smallest Element in a Sorted Matrix** — LeetCode 378
+
+### Day 85 — Heaps / Priority Queue: Pattern 4: Two Heaps
+- [ ] **Find Median from Data Stream** — LeetCode 295
+- [ ] **Sliding Window Median** — LeetCode 480
+- [ ] **IPO** — LeetCode 502
+- [ ] **Total Cost to Hire K Workers** — LeetCode 2462
+
+### Day 86 — Heaps / Priority Queue: Pattern 5: Greedy + Heap
+- [ ] **Task Scheduler** — LeetCode 621
+- [ ] **Minimum Number of Refueling Stops** — LeetCode 871
+- [ ] **Maximum Performance of a Team** — LeetCode 1383
+- [ ] **Process Tasks Using Servers** — LeetCode 1882
+
+### Day 87 — Heaps / Priority Queue: Pattern 6: Heap + Graph / Advanced
+- [ ] **Network Delay Time** — LeetCode 743
+- [ ] **Path With Minimum Effort** — LeetCode 1631
+- [ ] **Cheapest Flights Within K Stops** — LeetCode 787
+- [ ] **Minimum Cost to Connect Sticks** — LeetCode 1167
+
+### Day 88 — Graphs: Pattern 1: Graph Fundamentals – BFS & DFS
+- [ ] **Find if Path Exists in Graph** — LeetCode 1971
+- [ ] **Number of Connected Components in an Undirected Graph** — NeetCode
+- [ ] **Number of Islands** — LeetCode 200
+- [ ] **Keys and Rooms** — LeetCode 841
+
+### Day 89 — Graphs: Pattern 2: Cycle Detection
+- [ ] **Detect Cycle in an Undirected Graph** — GFG
+- [ ] **Detect Cycle in a Directed Graph** — GFG
+- [ ] **Is Graph Bipartite?** — LeetCode 785
+- [ ] **Possible Bipartition** — LeetCode 886
+
+### Day 90 — Graphs: Pattern 3: Topological Sorting
+- [ ] **Course Schedule** — LeetCode 207
+- [ ] **Find Eventual Safe States** — LeetCode 802
+- [ ] **Alien Dictionary** — GFG
+- [ ] **Minimum Height Trees** — LeetCode 310
+
+### Day 91 — Graphs: Pattern 4: Shortest Path Algorithms
+- [ ] **Shortest Path in Binary Matrix** — LeetCode 1091
+- [ ] **01 Matrix** — LeetCode 542
+- [ ] **Path With Minimum Effort** — LeetCode 1631
+- [ ] **Path with Maximum Probability** — LeetCode 1514
+
+### Day 92 — Graphs: Pattern 5: Disjoint Set Union (DSU / Union Find)
+- [ ] **Number of Provinces** — LeetCode 547
+- [ ] **Accounts Merge** — LeetCode 721
+- [ ] **Number of Operations to Make Network Connected** — LeetCode 1319
+- [ ] **Satisfiability of Equality Equations** — LeetCode 990
+
+### Day 93 — Graphs: Pattern 6: Minimum Spanning Tree (MST)
+- [ ] **Min Cost to Connect All Points** — LeetCode 1584
+- [ ] **Connecting Cities With Minimum Cost** — LeetCode 1135
+- [ ] **Optimize Water Distribution in a Village** — LeetCode 1168
+
+### Day 94 — Graphs: Pattern 7: Advanced Graph Problems
+- [ ] **Word Ladder** — LeetCode 127
+- [ ] **Word Ladder II** — LeetCode 126
+- [ ] **Critical Connections in a Network** — LeetCode 1192
+- [ ] **Reconstruct Itinerary** — LeetCode 332
+
+### Day 95 — Intervals: Pattern 1: Basic Interval Problems
+- [ ] **Merge Intervals** — LeetCode 56
+- [ ] **Insert Interval** — LeetCode 57
+- [ ] **Remove Covered Intervals** — LeetCode 1288
+- [ ] **Minimum Number of Arrows to Burst Balloons** — LeetCode 452
+
+### Day 96 — Intervals: Pattern 2: Greedy + Intervals
+- [ ] **Minimum Number of Taps to Open to Water a Garden** — LeetCode 1326
+- [ ] **Minimum Interval to Include Each Query** — LeetCode 1851
+- [ ] **Maximum Length of Pair Chain** — LeetCode 646
+- [ ] **Maximum Number of Events That Can Be Attended** — LeetCode 1353
+
+### Day 97 — Intervals: Pattern 3: Interval Scheduling + Priority Queue
+- [ ] **Meeting Rooms III** — LeetCode 2402
+- [ ] **My Calendar I** — LeetCode 729
+- [ ] **My Calendar III** — LeetCode 732
+- [ ] **Divide Intervals Into Minimum Number of Groups** — LeetCode 2406
+
+### Day 98 — Intervals: Pattern 4: Sweep Line / Difference Array
+- [ ] **Car Pooling** — LeetCode 1094
+- [ ] **Corporate Flight Bookings** — LeetCode 1109
+- [ ] **The Skyline Problem** — LeetCode 218
+- [ ] **My Calendar III** — LeetCode 732
+
+### Day 99 — Intervals: Pattern 5: Binary Search + Intervals
+- [ ] **Minimum Interval to Include Each Query** — LeetCode 1851
+- [ ] **Find Right Interval** — LeetCode 436
+- [ ] **Data Stream as Disjoint Intervals** — LeetCode 352
+
+### Day 100 — Arrays & Hashing: 1. HashMap & HashSet (8 questions)
+- [ ] **Two Sum** — LeetCode 1
+- [ ] **Valid Anagram** — LeetCode 242
+- [ ] **Longest Consecutive Sequence** — LeetCode 128
+- [ ] **Sort Characters By Frequency** — LeetCode 451
+
+### Day 101 — Arrays & Hashing: 2. Prefix Sum & Subarray Hashing (7 questions)
+- [ ] **Range Sum Query – Immutable** — LeetCode 303
+- [ ] **Contiguous Array** — LeetCode 525
+- [ ] **Subarray Sums Divisible by K** — LeetCode 974
+- [ ] **Count of Range Sum** — LeetCode 327
+
+### Day 102 — Arrays & Hashing: 3. Two Pointers & Sorting (8 questions)
+- [ ] **Remove Duplicates from Sorted Array** — LeetCode 26
+- [ ] **Container With Most Water** — LeetCode 11
+- [ ] **4Sum** — LeetCode 18
+- [ ] **Trapping Rain Water** — LeetCode 42
+
+### Day 103 — Arrays & Hashing: 4. Sliding Window (6 questions)
+- [ ] **Contains Duplicate II** — LeetCode 219
+- [ ] **Find All Anagrams in a String** — LeetCode 438
+- [ ] **Permutation in String** — LeetCode 567
+- [ ] **Sliding Window Maximum** — LeetCode 239
+
+### Day 104 — Arrays & Hashing: 5. Array Manipulation & In-place Techniques (7 questions)
+- [ ] **Product of Array Except Self** — LeetCode 238
+- [ ] **Maximum Product Subarray** — LeetCode 152
+- [ ] **Majority Element** — LeetCode 169
+- [ ] **First Missing Positive** — LeetCode 41
+
+### Day 105 — Arrays & Hashing: 6. Binary Search on Arrays (5 questions)
+- [ ] **Search in Rotated Sorted Array** — LeetCode 33
+- [ ] **Find First and Last Position** — LeetCode 34
+- [ ] **Find Peak Element** — LeetCode 162
+- [ ] **Median of Two Sorted Arrays** — LeetCode 4
+
+### Day 106 — Arrays & Hashing: 7. Intervals & Matrix (7 questions)
+- [ ] **Merge Intervals** — LeetCode 56
+- [ ] **Non-overlapping Intervals** — LeetCode 435
+- [ ] **Rotate Image** — LeetCode 48
+- [ ] **Search a 2D Matrix II** — LeetCode 240
+
+### Day 107 — Greedy: Pattern 1: Basic Greedy
+- [ ] **Assign Cookies** — LeetCode 455
+- [ ] **Best Time to Buy and Sell Stock II** — LeetCode 122
+- [ ] **Maximum Units on a Truck** — LeetCode 1710
+- [ ] **Minimum Cost to Move Chips** — LeetCode 1217
+
+### Day 108 — Greedy: Pattern 2: Interval Scheduling + Greedy
+- [ ] **Non-overlapping Intervals** — LeetCode 435
+- [ ] **Maximum Length of Pair Chain** — LeetCode 646
+- [ ] **Video Stitching** — LeetCode 1024
+- [ ] **Two City Scheduling** — LeetCode 1029
+
+### Day 109 — Greedy: Pattern 3: Greedy + Sorting
+- [ ] **Queue Reconstruction by Height** — LeetCode 406
+- [ ] **Largest Number** — LeetCode 179
+- [ ] **Minimum Number of Platforms** — GFG
+- [ ] **Bag of Tokens** — LeetCode 948
+
+### Day 110 — Greedy: Pattern 4: Greedy + Two Pointers
+- [ ] **Boats to Save People** — LeetCode 881
+- [ ] **Rescue Boats** — LeetCode 881
+- [ ] **Valid Triangle Number** — LeetCode 611
+- [ ] **Candy** — LeetCode 135
+
+### Day 111 — Greedy: Pattern 5: Greedy + Heap / Priority Queue
+- [ ] **Maximum Performance of a Team** — LeetCode 1383
+- [ ] **Maximum Number of Events That Can Be Attended** — LeetCode 1353
+- [ ] **Course Schedule III** — LeetCode 630
+- [ ] **Furthest Building You Can Reach** — LeetCode 1642
+
+### Day 112 — Greedy: Pattern 6: Greedy + String / Character Frequency
+- [ ] **Reorganize String** — LeetCode 767
+- [ ] **Task Scheduler** — LeetCode 621
+- [ ] **Remove K Digits** — LeetCode 402
+- [ ] **Minimum Deletions to Make Character Frequencies Unique** — LeetCode 1647
+
+### Day 113 — Greedy: Pattern 7: Greedy + Special Problems
+- [ ] **Jump Game** — LeetCode 55
+- [ ] **Wiggle Subsequence** — LeetCode 376
+- [ ] **Maximum Subarray** — LeetCode 53
+- [ ] **Advanced revision** — LeetCode 10
+
+## List 2 — Original question bank with DONE marks
+
+Below is the original source text. A row is marked **DONE** when that exact problem (title + LeetCode ID) appears in List 1 at least once. Repeated appearances of the same problem are also marked DONE.
+
+Arshad, Two Pointers is one of the most important DSA patterns for product-based interviews. Main tumhe 30 carefully selected questions de raha hoon jo Two Pointers ke almost saare major patterns cover karenge.
+Goal: Easy → Medium → Hard, with Java implementation.
+Two Pointers — Interview Master Sheet
+30 Questions
+Pattern-wise
+Easy → Hard
+1. Opposite Direction Pointers (6)
+left = 0, right = n - 1
+#	LC	Problem	Difficulty
+1	125	Valid Palindrome	Easy	DONE
+2	167	Two Sum II	Medium
+3	11	Container With Most Water	Medium	DONE
+4	15	3Sum	Medium	DONE
+5	16	3Sum Closest	Medium
+6	18	4Sum	Medium	DONE
+Patterns: Pair finding, sorted array, duplicate skipping, multi-pointer, greedy movement.
+2. Same Direction / Slow & Fast Pointers (6)
+slow = 0, fast = 0
+#	LC	Problem	Difficulty
+7	26	Remove Duplicates from Sorted Array	Easy	DONE
+8	27	Remove Element	Easy
+9	283	Move Zeroes	Easy	DONE
+10	80	Remove Duplicates from Sorted Array II	Medium	DONE
+11	443	String Compression	Medium
+12	905	Sort Array By Parity	Easy	DONE
+Patterns: In-place modification, overwriting, maintaining valid prefix, array compaction.
+3. Sliding Window / Two Pointers (5)
+#	LC	Problem	Difficulty
+13	3	Longest Substring Without Repeating Characters	Medium	DONE
+14	209	Minimum Size Subarray Sum	Medium	DONE
+15	424	Longest Repeating Character Replacement	Medium
+16	713	Subarray Product Less Than K	Medium	DONE
+17	76	Minimum Window Substring	Hard	DONE
+Patterns: Variable-size window, expand/shrink, maintaining window conditions.
+4. Fast & Slow Pointers (Linked List) (5)
+#	LC	Problem	Difficulty
+18	141	Linked List Cycle	Easy	DONE
+19	142	Linked List Cycle II	Medium	DONE
+20	876	Middle of the Linked List	Easy	DONE
+21	19	Remove Nth Node From End of List	Medium	DONE
+22	143	Reorder List	Medium	DONE
+Patterns: Cycle detection, finding middle, distance gap, linked-list rearrangement.
+5. Advanced Two Pointers (5)
+#	LC	Problem	Difficulty
+23	42	Trapping Rain Water	Hard	DONE
+24	75	Sort Colors	Medium	DONE
+25	31	Next Permutation	Medium
+26	845	Longest Mountain in Array	Medium	DONE
+27	977	Squares of a Sorted Array	Easy	DONE
+Patterns: Boundary comparison, three pointers, array reversal, mountain traversal.
+6. Hard / Interview Challenge (3)
+#	LC	Problem	Difficulty
+28	1498	Number of Subsequences That Satisfy the Given Sum Condition	Medium	DONE
+29	632	Smallest Range Covering Elements from K Lists	Hard	DONE
+30	42	Trapping Rain Water (Optimized Two Pointers)	Hard	DONE
+Note: #30 is an intentional second approach to problem #23, not a new problem.
+
+Pattern recognition cheat sheet
+Problem statement clue	Think of
+Sorted array + pair/triplet	Opposite pointers
+Remove duplicates in-place	Slow & Fast
+Move elements without extra space	Same direction pointers
+Longest/shortest contiguous substring	Sliding window
+Linked list cycle	Fast & Slow
+Middle of linked list	Fast & Slow
+Find pair with maximum/minimum condition	Opposite pointers
+Sorted array + target range	Two pointers / binary search depending on condition
+Recommended solving order
+* First complete questions 1–12.
+
+
+* Then 13–17 (sliding window).
+
+
+* Then 18–22 (linked list).
+
+
+* Finally 23–29 (advanced).
+
+
+My target for you: 30 questions, 10–12 days.
+One rule: Har problem mein khud se ye explain karna hai:
+1. Why two pointers?
+
+
+2. Why are pointers moving in this particular direction?
+
+
+3. Why won't we miss the optimal answer?
+
+
+4. Can we optimize space or time further?
+
+
+Agar tum in 4 questions ka answer confidently de sakte ho, then tum sirf solution memorize nahi kar rahe, actual pattern understand kar rahe ho.
+
+
+
+Arshad, Stack is a very important topic for coding interviews, especially for companies like Amazon, Microsoft, Google, Atlassian and Infosys SP.
+Main tumhe 35 carefully selected Stack questions de raha hoon. Is list ka objective Stack ke almost saare important interview patterns cover karna hai — basic operations se lekar Monotonic Stack aur advanced design problems tak.
+Stack — Interview Master Sheet
+35 Questions
+Pattern-wise
+Easy → Hard
+Java
+1. Stack Fundamentals & Implementation (6)
+#	LC	Problem	Difficulty
+1	20	Valid Parentheses	Easy	DONE
+2	155	Min Stack	Medium
+3	225	Implement Stack using Queues	Easy	DONE
+4	232	Implement Queue using Stacks	Easy	DONE
+5	150	Evaluate Reverse Polish Notation	Medium
+6	71	Simplify Path	Medium	DONE
+Patterns covered:
+* Stack implementation
+
+
+* LIFO
+
+
+* Parentheses matching
+
+
+* Auxiliary stack
+
+
+* Expression evaluation
+
+
+2. Monotonic Stack — Next Greater / Smaller (7)
+#	LC	Problem	Difficulty
+7	496	Next Greater Element I	Easy	DONE
+8	503	Next Greater Element II	Medium
+9	739	Daily Temperatures	Medium	DONE
+10	901	Online Stock Span	Medium
+11	1944	Number of Visible People in a Queue	Hard	DONE
+12	84	Largest Rectangle in Histogram	Hard
+13	85	Maximal Rectangle	Hard	DONE
+Patterns covered:
+* Next Greater Element
+
+
+* Next Smaller Element
+
+
+* Previous Greater/Smaller
+
+
+* Increasing and decreasing monotonic stack
+
+
+* Histogram-based optimization
+
+
+3. Expression Evaluation & Parsing (5)
+#	LC	Problem	Difficulty
+14	224	Basic Calculator	Hard	DONE
+15	227	Basic Calculator II	Medium	DONE
+16	772	Basic Calculator III	Hard (Premium)
+17	394	Decode String	Medium	DONE
+18	385	Mini Parser	Medium	DONE
+Patterns covered:
+* Infix expression
+
+
+* Operator precedence
+
+
+* Nested expressions
+
+
+* String decoding
+
+
+* Recursive parsing
+
+
+4. Stack + String Problems (5)
+#	LC	Problem	Difficulty
+19	1047	Remove All Adjacent Duplicates in String	Easy	DONE
+20	1209	Remove All Adjacent Duplicates in String II	Medium	DONE
+21	1249	Minimum Remove to Make Valid Parentheses	Medium
+22	32	Longest Valid Parentheses	Hard	DONE
+23	402	Remove K Digits	Medium	DONE
+Patterns covered:
+* Adjacent cancellation
+
+
+* Frequency tracking
+
+
+* Parentheses validation
+
+
+* Stack-based string construction
+
+
+* Greedy + monotonic stack
+
+
+5. Advanced Monotonic Stack & Contribution Technique (5)
+#	LC	Problem	Difficulty
+24	907	Sum of Subarray Minimums	Medium	DONE
+25	2104	Sum of Subarray Ranges	Medium	DONE
+26	2281	Sum of Total Strength of Wizards	Hard
+27	456	132 Pattern	Medium	DONE
+28	1776	Car Fleet II	Hard	DONE
+Patterns covered:
+* Contribution technique
+
+
+* Previous smaller and next smaller
+
+
+* Previous greater and next greater
+
+
+* Prefix sum + monotonic stack
+
+
+* Advanced decreasing stack
+
+
+6. Design & Advanced Stack Applications (7)
+#	LC	Problem	Difficulty
+29	341	Flatten Nested List Iterator	Medium	DONE
+30	388	Longest Absolute File Path	Medium
+31	895	Maximum Frequency Stack	Hard	DONE
+32	716	Max Stack	Hard (Premium)
+33	456	132 Pattern	Medium	DONE
+34	735	Asteroid Collision	Medium
+35	853	Car Fleet	Medium	DONE
+Note: #33 repeats #27 intentionally as a second application of the same pattern. #16 and #32 are Premium problems.
+
+Stack pattern recognition cheat sheet
+Interview mein question dekhte hi ye clues identify karna:
+Question clue	Pattern
+Matching brackets	Basic Stack
+Minimum element in O(1)	Min Stack
+Next greater element	Monotonic Decreasing Stack
+Next smaller element	Monotonic Increasing Stack
+Circular next greater	Circular Monotonic Stack
+Largest rectangle	Previous/Next Smaller
+Subarray minimum contribution	Monotonic Stack + Contribution
+Nested string/expression	Stack + Parsing
+Remove digits to minimize number	Greedy + Monotonic Stack
+Collision between objects	Simulation + Stack
+Maximum frequency with push/pop	HashMap + Stack
+Recommended solving order
+10-day Stack plan
+Day 1
+Fundamentals
+Questions 1–6
+Day 2–3
+Monotonic Stack
+Questions 7–13
+Day 4
+Expression Evaluation
+Questions 14–18
+Day 5
+Stack + Strings
+Questions 19–23
+Day 6–7
+Contribution Technique
+Questions 24–28
+Day 8–10
+Design & Advanced
+Questions 29–35
+My recommendation for your preparation
+Don't skip these 10 questions under any circumstances:
+1. Valid Parentheses
+
+
+2. Min Stack
+
+
+3. Next Greater Element II
+
+
+4. Daily Temperatures
+
+
+5. Largest Rectangle in Histogram
+
+
+6. Maximal Rectangle
+
+
+7. Basic Calculator
+
+
+8. Decode String
+
+
+9. Sum of Subarray Minimums
+
+
+10. Remove K Digits
+
+
+These will give you exposure to the most reusable Stack patterns.
+One important rule: Monotonic Stack ko specially strong karna. Interviews mein iska application sirf Next Greater Element tak limited nahi hai. Histogram, contribution technique, subarray minimums aur greedy problems mein bhi iska use hota hai.
+
+
+
+Arshad, 1-D Dynamic Programming is one of the most important DP topics for coding interviews. Isme tumhe state definition, recurrence, space optimization, subsequence DP, take/not-take, Kadane's algorithm aur LIS jaise patterns strong karne hain.
+Main tumhe 45 carefully selected LeetCode questions de raha hoon, Easy se Hard order mein. Ye list major 1-D DP interview patterns cover karegi.
+1-D Dynamic Programming — Interview Master Sheet
+45 Questions
+Pattern-wise
+Easy → Hard
+Java
+1. Basic 1-D DP (6 Questions)
+#	LeetCode	Problem	Level
+1	70	Climbing Stairs	Easy	DONE
+2	746	Min Cost Climbing Stairs	Easy
+3	1137	N-th Tribonacci Number	Easy	DONE
+4	509	Fibonacci Number	Easy	DONE
+5	91	Decode Ways	Medium
+6	2266	Count Number of Texts	Medium	DONE
+Patterns covered:
+* Fibonacci DP
+
+
+* Previous state dependency
+
+
+* 1D state transition
+
+
+* Counting ways
+
+
+* Space optimization
+
+
+2. Take / Not Take DP (7 Questions)
+#	LeetCode	Problem	Level
+7	198	House Robber	Medium	DONE
+8	213	House Robber II	Medium
+9	740	Delete and Earn	Medium	DONE
+10	983	Minimum Cost For Tickets	Medium	DONE
+11	2140	Solving Questions With Brainpower	Medium	DONE
+12	3186	Maximum Total Damage With Spell Casting	Medium
+13	1406	Stone Game III	Hard	DONE
+Patterns covered:
+* Take vs Not Take
+
+
+* Index-based DP
+
+
+* Non-adjacent selection
+
+
+* DP with jumps
+
+
+* DP + Binary Search / sorting
+
+
+3. Kadane's Algorithm & Subarray DP (5 Questions)
+#	LeetCode	Problem	Level
+14	53	Maximum Subarray	Medium	DONE
+15	918	Maximum Sum Circular Subarray	Medium	DONE
+16	152	Maximum Product Subarray	Medium	DONE
+17	1749	Maximum Absolute Sum of Any Subarray	Medium	DONE
+18	1191	K-Concatenation Maximum Sum	Medium	DONE
+Patterns covered:
+* Kadane's Algorithm
+
+
+* Maximum / minimum subarray
+
+
+* Circular subarray
+
+
+* Maximum product tracking
+
+
+* Prefix and suffix optimization
+
+
+4. Longest Increasing Subsequence (LIS) Pattern (7 Questions)
+#	LeetCode	Problem	Level
+19	300	Longest Increasing Subsequence	Medium	DONE
+20	673	Number of Longest Increasing Subsequence	Medium	DONE
+21	354	Russian Doll Envelopes	Hard	DONE
+22	646	Maximum Length of Pair Chain	Medium	DONE
+23	1626	Best Team With No Conflicts	Medium	DONE
+24	1671	Minimum Number of Removals to Make Mountain Array	Hard
+25	960	Delete Columns to Make Sorted III	Hard	DONE
+Patterns covered:
+* LIS O(N²)
+
+
+* LIS O(N log N)
+
+
+* Binary Search + DP
+
+
+* Longest chain
+
+
+* Increasing / decreasing subsequence
+
+
+* Bitonic subsequence
+
+
+5. String / Subsequence 1-D DP (6 Questions)
+#	LeetCode	Problem	Level
+26	5	Longest Palindromic Substring	Medium	DONE
+27	647	Palindromic Substrings	Medium
+28	516	Longest Palindromic Subsequence	Medium	DONE
+29	392	Is Subsequence	Easy	DONE
+30	1027	Longest Arithmetic Subsequence	Medium
+31	873	Length of Longest Fibonacci Subsequence	Medium	DONE
+Patterns covered:
+* String DP
+
+
+* Palindrome expansion / subsequence
+
+
+* Index tracking
+
+
+* Arithmetic subsequence
+
+
+* State based on previous elements
+
+
+Note: Some problems here are better classified as 2-D or state-compressed DP. They are included to cover related interview patterns, not because every one is strictly 1-D DP.
+6. Coin Change & Unbounded Knapsack (5 Questions)
+#	LeetCode	Problem	Level
+32	322	Coin Change	Medium	DONE
+33	518	Coin Change II	Medium	DONE
+34	279	Perfect Squares	Medium
+35	377	Combination Sum IV	Medium	DONE
+36	1449	Form Largest Integer With Digits That Add Up to Target	Hard	DONE
+Patterns covered:
+* Unbounded Knapsack
+
+
+* Minimum number of coins
+
+
+* Number of combinations
+
+
+* Number of permutations
+
+
+* Target-based DP
+
+
+7. Advanced 1-D DP (9 Questions)
+#	LeetCode	Problem	Level
+37	410	Split Array Largest Sum	Hard	DONE
+38	871	Minimum Number of Refueling Stops	Hard	DONE
+39	1235	Maximum Profit in Job Scheduling	Hard
+40	368	Largest Divisible Subset	Medium	DONE
+41	664	Strange Printer	Hard	DONE
+42	1402	Reducing Dishes	Hard	DONE
+43	1696	Jump Game VI	Medium
+44	975	Odd Even Jump	Hard
+45	403	Frog Jump	Hard	DONE
+Note: This final section includes advanced DP variants, including optimized state transitions, binary search + DP, and problems that can be classified as multidimensional/state-based DP.
+
+Pattern recognition cheat sheet
+Problem clue	DP pattern
+Number of ways to reach destination	Fibonacci / Counting DP
+Minimum cost to reach destination	Min Cost DP
+Cannot select adjacent elements	Take / Not Take
+Maximum contiguous subarray	Kadane's Algorithm
+Increasing subsequence	LIS
+Longest chain	LIS / Sorting + DP
+Minimum coins to reach target	Unbounded Knapsack
+Number of combinations	Coin Change DP
+Number of permutations	Target-based DP
+Future index depends on previous choice	Index DP
+Jump with limited range	DP + Deque / Heap
+Jobs with start/end time	Sorting + Binary Search + DP
+My recommended 20 must-do questions
+If you have limited time, prioritize these:
+Priority	Problem	LC
+1	Climbing Stairs	70	DONE
+2	Min Cost Climbing Stairs	746
+3	House Robber	198	DONE
+4	House Robber II	213
+5	Delete and Earn	740	DONE
+6	Maximum Subarray	53	DONE
+7	Maximum Product Subarray	152	DONE
+8	Decode Ways	91
+9	Longest Increasing Subsequence	300	DONE
+10	Number of LIS	673
+11	Russian Doll Envelopes	354	DONE
+12	Coin Change	322	DONE
+13	Coin Change II	518	DONE
+14	Combination Sum IV	377	DONE
+15	Perfect Squares	279
+16	Jump Game VI	1696
+17	Maximum Profit in Job Scheduling	1235
+18	Frog Jump	403	DONE
+19	Stone Game III	1406	DONE
+20	Minimum Number of Refueling Stops	871	DONE
+12-day preparation strategy
+1-D DP study plan
+Day 1
+Basic DP
+Questions 1–6
+Day 2–3
+Take / Not Take
+Questions 7–13
+Day 4
+Kadane's Algorithm
+Questions 14–18
+Day 5–6
+LIS Pattern
+Questions 19–25
+Day 7
+String DP
+Questions 26–31
+Day 8–9
+Knapsack DP
+Questions 32–36
+Day 10–12
+Advanced DP
+Questions 37–45
+How I want you to solve each DP problem
+For every question, follow this sequence:
+1. Identify whether recursion is possible.
+
+
+2. Define the DP state clearly.
+
+
+3. Write the recurrence relation.
+
+
+4. Identify base cases.
+
+
+5. Convert recursion into memoization.
+
+
+6. Convert memoization into tabulation.
+
+
+7. Optimize space wherever possible.
+
+
+8. Explain time and space complexity.
+
+
+Important: Tumne Aditya Verma DP playlist already complete ki hai, so ab tumhara focus sirf solutions dekhna nahi, independently state aur transition derive karna hona chahiye.
+My recommendation: 45 questions ko 15–20 days mein properly complete karo. Quality of pattern recognition matters much more than question count.
+
+
+
+Bilkul bhai. Main tumhe Binary Search ki curated interview sheet de raha hoon. Isme basic se lekar advanced tak almost saare important patterns cover honge.
+Target ye hai ki tum sirf questions solve na karo, balki har type ka Binary Search independently identify aur implement kar pao.
+Binary Search – Interview Preparation Sheet
+
+30 core questions
+8 advanced questions
+
+Pattern 1: Basic Binary Search
+Sabse pehle in questions par command banao.
+#	Problem	LeetCode
+1	Binary Search	704	DONE
+2	Search Insert Position	35
+3	Find First and Last Position of Element	34	DONE
+4	Find Smallest Letter Greater Than Target	744
+5	First Bad Version	278	DONE
+6	Sqrt(x)	69
+7	Valid Perfect Square	367	DONE
+Pattern 2: Rotated Sorted Array
+Interview mein bahut important hai.
+#	Problem	LeetCode
+8	Search in Rotated Sorted Array	33	DONE
+9	Find Minimum in Rotated Sorted Array	153	DONE
+10	Search in Rotated Sorted Array II	81
+11	Find Minimum in Rotated Sorted Array II	154	DONE
+12	Single Element in a Sorted Array	540	DONE
+Pattern 3: Binary Search on Answer
+Very important for interviews
+Yahan answer directly nahi milta. Hum possible answers ke search space mein Binary Search lagate hain.
+#	Problem	LeetCode
+13	Koko Eating Bananas	875	DONE
+14	Capacity To Ship Packages Within D Days	1011
+15	Minimum Number of Days to Make Bouquets	1482	DONE
+16	Find the Smallest Divisor Given a Threshold	1283
+17	Magnetic Force Between Two Balls	1552
+18	Split Array Largest Sum	410	DONE
+19	Minimum Limit of Balls in a Bag	1760
+20	Kth Smallest Product of Two Sorted Arrays	2040	DONE
+Pattern 4: Binary Search on 2D Matrix
+#	Problem	LeetCode
+21	Search a 2D Matrix	74	DONE
+22	Search a 2D Matrix II	240	DONE
+Pattern 5: Peak / Mountain Array
+#	Problem	LeetCode
+23	Find Peak Element	162	DONE
+24	Peak Index in a Mountain Array	852	DONE
+25	Find in Mountain Array	1095	DONE
+Pattern 6: Advanced Binary Search
+#	Problem	LeetCode
+26	Median of Two Sorted Arrays	4	DONE
+27	Kth Smallest Element in a Sorted Matrix	378	DONE
+28	Find K Closest Elements	658
+29	Successful Pairs of Spells and Potions	2300	DONE
+30	Time Based Key-Value Store	981	DONE
+Additional 8 questions – Advanced practice
+#	Problem	LeetCode
+31	H-Index II	275
+32	Find Right Interval	436	DONE
+33	Find the Duplicate Number	287
+34	Minimize Max Distance to Gas Station	774
+35	Kth Missing Positive Number	1539
+36	Maximum Value at a Given Index in a Bounded Array	1802
+37	Find a Peak Element II	1901
+38	Minimum Absolute Sum Difference	1818
+Kaise complete karna hai?
+Meri recommendation: 6 days mein Binary Search cover karo.
+Day	Target
+Day 1	Basic Binary Search – 7 questions
+Day 2	Rotated Sorted Array – 5 questions
+Day 3	Binary Search on Answer – 8 questions
+Day 4	2D Matrix + Peak – 5 questions
+Day 5	Advanced – 5 questions
+Day 6	Remaining advanced + revision
+Ek important baat
+Har question solve karte waqt ye 5 cheezein samajhna:
+1. Search space kya hai?
+
+
+2. low aur high kaise decide honge?
+
+
+3. mid kaise calculate karenge?
+
+
+4. Kis condition par left ya right jayenge?
+
+
+5. Loop terminate hone par answer kahan milega?
+
+
+Mera suggestion: Java mein solve karna. Pehle khud try karna, phir solution dekhna.
+Hum Day 1 ke pehle question 704 – Binary Search se start karenge. Main tumhe directly code nahi dunga; pehle logic derive karwayenge, taaki interview mein unseen Binary Search questions bhi solve kar sako.
+
+
+
+Bilkul bhai! Sliding Window ke liye bhi ek interview-focused question sheet banate hain. Isme basic se advanced tak important patterns cover honge.
+Target: Questions complete karne ke baad tumhe samajh aana chahiye ki kis problem mein Fixed Window, Variable Window, Frequency Map, ya Two Pointers + Sliding Window use karna hai.
+Sliding Window – Interview Preparation Sheet
+
+30 core questions
+10 advanced questions
+
+Pattern 1: Fixed Size Sliding Window
+Window ka size k fixed hota hai.
+#	Problem	LeetCode
+1	Maximum Average Subarray I	643	DONE
+2	Maximum Sum of Distinct Subarrays With Length K	2461
+3	Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold	1343	DONE
+4	Contains Duplicate II	219	DONE
+5	Find All Anagrams in a String	438	DONE
+6	Permutation in String	567	DONE
+Pattern 2: Variable Size – Longest Subarray / Substring
+Window ka size fixed nahi hota. Condition ke according expand aur shrink karte hain.
+#	Problem	LeetCode
+7	Longest Substring Without Repeating Characters	3	DONE
+8	Longest Repeating Character Replacement	424
+9	Max Consecutive Ones III	1004	DONE
+10	Fruit Into Baskets	904
+11	Longest Subarray of 1's After Deleting One Element	1493
+12	Maximum Number of Vowels in a Substring of Given Length	1456	DONE
+13	Get Equal Substrings Within Budget	1208
+14	Maximum Consecutive Answers	2024	DONE
+Pattern 3: Minimum Window / Shortest Subarray
+Yahan usually smallest valid window find karni hoti hai.
+Very important
+#	Problem	LeetCode
+15	Minimum Size Subarray Sum	209	DONE
+16	Minimum Window Substring	76	DONE
+17	Subarray Product Less Than K	713	DONE
+18	Minimum Operations to Reduce X to Zero	1658	DONE
+19	Take K of Each Character From Left and Right	2516	DONE
+Pattern 4: Frequency Map + Sliding Window
+HashMap ya frequency array ko window ke saath maintain karna hota hai.
+#	Problem	LeetCode
+20	Permutation in String	567	DONE
+21	Find All Anagrams in a String	438	DONE
+22	Longest Substring with At Most Two Distinct Characters	904 (related pattern)
+23	Subarrays with K Different Integers	992	DONE
+24	Number of Substrings Containing All Three Characters	1358	DONE
+Pattern 5: Counting Subarrays with Sliding Window
+In questions mein valid subarrays ki total count nikalni hoti hai.
+#	Problem	LeetCode
+25	Binary Subarrays With Sum	930	DONE
+26	Count Number of Nice Subarrays	1248	DONE
+27	Subarrays with K Different Integers	992	DONE
+28	Count Subarrays Where Max Element Appears at Least K Times	2962	DONE
+Pattern 6: Advanced Sliding Window
+#	Problem	LeetCode
+29	Sliding Window Maximum	239	DONE
+30	Shortest Subarray with Sum at Least K	862	DONE
+31	Jump Game VI	1696
+32	Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit	1438	DONE
+33	Max Value of Equation	1499	DONE
+Additional 7 questions
+#	Problem	LeetCode
+34	Sliding Subarray Beauty	2653
+35	Maximum Points You Can Obtain from Cards	1423
+36	Grumpy Bookstore Owner	1052
+37	Maximum Erasure Value	1695
+38	Frequency of the Most Frequent Element	1838
+39	Minimum Swaps to Group All 1's Together	1151
+40	Minimum Swaps to Group All 1's Together II	2134
+7-Day completion plan
+Day	Pattern	Questions
+1	Fixed Size Window	6
+2	Variable Window – Longest	8
+3	Minimum Window	5
+4	Frequency Map	5
+5	Counting Subarrays	4
+6	Advanced – Deque / Monotonic Queue	5
+7	Additional + Revision	7
+5 templates jo tumhe master karne hain
+1. Fixed size window
+
+
+2. Variable size window – longest valid window
+
+
+3. Variable size window – minimum valid window
+
+
+4. Frequency map + window
+
+
+5. Monotonic deque / sliding window maximum
+
+
+Ek important interview trick:
+* Maximum length valid window → usually expand, condition invalid hone par shrink.
+
+
+* Minimum length valid window → condition valid hone par answer update karke shrink.
+
+
+* Exactly K distinct → atMost(K) - atMost(K-1) technique.
+
+
+* Fixed K → add new element, remove outgoing element.
+
+
+Meri recommendation: Java mein solve karna aur 7 days mein ye sheet complete karna. Pehle 6 questions se start karenge. Main tumhe har pattern ka intuition, dry run aur phir Java implementation samjhaunga—direct solution ratwayenge nahi.
+
+
+
+Bilkul bhai! Linked List ke liye bhi ek complete interview-focused DSA sheet banate hain. Isme Easy se Hard tak important questions aur almost saare major interview patterns cover honge.
+Target: 40 questions, Java implementation ke saath.
+Linked List – Interview Preparation Sheet
+
+33 core questions
+7 advanced questions
+
+Pattern 1: Basic Linked List Operations
+Pehle fundamentals strong karo: traversal, insertion, deletion, pointers.
+#	Problem	LeetCode
+1	Design Linked List	707	DONE
+2	Remove Linked List Elements	203
+3	Remove Duplicates from Sorted List	83	DONE
+4	Remove Duplicates from Sorted List II	82	DONE
+5	Delete Node in a Linked List	237
+6	Middle of the Linked List	876	DONE
+Pattern 2: Two Pointers – Fast & Slow
+Very important
+#	Problem	LeetCode
+7	Linked List Cycle	141	DONE
+8	Linked List Cycle II	142	DONE
+9	Happy Number	202	DONE
+10	Palindrome Linked List	234
+11	Reorder List	143	DONE
+12	Remove Nth Node From End of List	19	DONE
+13	Intersection of Two Linked Lists	160	DONE
+Pattern 3: Reversal of Linked List
+Ye pattern interviews ke liye must-do hai.
+#	Problem	LeetCode
+14	Reverse Linked List	206	DONE
+15	Reverse Linked List II	92	DONE
+16	Reverse Nodes in K-Group	25
+17	Swap Nodes in Pairs	24	DONE
+18	Reverse Nodes in Even Length Groups	2074	DONE
+Pattern 4: Merge and Sorting
+#	Problem	LeetCode
+19	Merge Two Sorted Lists	21	DONE
+20	Merge In Between Linked Lists	1669	DONE
+21	Merge K Sorted Lists	23	DONE
+22	Sort List	148	DONE
+23	Insertion Sort List	147	DONE
+Pattern 5: Linked List with Extra Logic
+#	Problem	LeetCode
+24	Add Two Numbers	2	DONE
+25	Add Two Numbers II	445
+26	Rotate List	61	DONE
+27	Partition List	86	DONE
+28	Remove Zero Sum Consecutive Nodes from Linked List	1171
+29	Odd Even Linked List	328	DONE
+Pattern 6: Random Pointer / Special Linked List
+#	Problem	LeetCode
+30	Copy List with Random Pointer	138	DONE
+31	Flatten a Multilevel Doubly Linked List	430	DONE
+32	Design Browser History	1472	DONE
+33	LRU Cache	146	DONE
+Additional 7 – Advanced Interview Questions
+#	Problem	LeetCode
+34	Reverse Linked List in K-Group (revisit without extra space)	25
+35	Maximum Twin Sum of a Linked List	2130
+36	Split Linked List in Parts	725
+37	Delete the Middle Node of a Linked List	2095
+38	Double a Number Represented as a Linked List	2816
+39	Remove Nodes From Linked List	2487
+40	Design Linked List with Doubly Linked List	707
+7-Day completion plan
+Day	Pattern	Questions
+1	Basic Operations	6
+2	Fast & Slow Pointers	7
+3	Reversal	5
+4	Merge & Sorting	5
+5	Extra Logic	6
+6	Random Pointer / Design	4
+7	Advanced + Revision	7
+8 concepts jo interview ke liye master karne hain
+1. Singly Linked List implementation
+
+
+2. Doubly Linked List implementation
+
+
+3. Dummy Node / Sentinel Node
+
+
+4. Fast and Slow Pointer
+
+
+5. Reversal using 3 pointers (prev, curr, next)
+
+
+6. Two Pointers with a gap of N
+
+
+7. Merge Two Sorted Lists
+
+
+8. Cycle Detection – Floyd's Cycle Algorithm
+
+
+Meri priority recommendation
+Agar time kam hai, toh ye 15 questions bilkul mat skip karna:
+Must Do – Top 15
+* 206 – Reverse Linked List
+
+
+* 21 – Merge Two Sorted Lists
+
+
+* 141 – Linked List Cycle
+
+
+* 142 – Linked List Cycle II
+
+
+* 876 – Middle of the Linked List
+
+
+* 19 – Remove Nth Node From End
+
+
+* 143 – Reorder List
+
+
+* 234 – Palindrome Linked List
+
+
+* 2 – Add Two Numbers
+
+
+* 92 – Reverse Linked List II
+
+
+* 25 – Reverse Nodes in K-Group
+
+
+* 23 – Merge K Sorted Lists
+
+
+* 148 – Sort List
+
+
+* 138 – Copy List with Random Pointer
+
+
+* 146 – LRU Cache
+
+
+Ek advice: Linked List mein code yaad karne se zyada pointer movement samajhna important hai. Har question ka dry run paper par karo.
+Hum Basic Linked List se start karenge aur Java mein head, next, prev, dummy sab step-by-step samjhenge.
+
+
+
+Bilkul bhai! Ab Math & Geometry ki complete interview-focused DSA question sheet banate hain.
+Is topic mein interviewer generally check karta hai ki tum mathematical observations, number theory, coordinate geometry, combinatorics aur optimization problems solve kar sakte ho ya nahi.
+Maine questions ko patterns mein divide kiya hai, taaki tumhe pata rahe kis type ke question mein kaunsa concept use karna hai.
+Math & Geometry – Complete Interview Question Sheet
+40 Core Questions
+10 Advanced Questions
+Java DSA
+Pattern 1: Basic Mathematics
+#	Problem	Link
+1	Palindrome Number	9	DONE
+2	Reverse Integer	7	DONE
+3	Integer to Roman	12	DONE
+4	Roman to Integer	13
+5	Excel Sheet Column Number	171
+6	Factorial Trailing Zeroes	172	DONE
+7	Happy Number	202	DONE
+8	Add Digits	258	DONE
+Concepts: Digit manipulation, modulo, division, number conversion, mathematical observation.
+Pattern 2: Number Theory – GCD, LCM, Primes
+Very Important
+#	Problem	Link
+9	Count Primes	204	DONE
+10	Greatest Common Divisor of Strings	1071
+11	Find Greatest Common Divisor of Array	1979	DONE
+12	Check if It Is a Good Array	1250
+13	Ugly Number	263	DONE
+14	Perfect Squares	279
+15	Prime Arrangements	1175	DONE
+Concepts:
+* Euclidean Algorithm (GCD)
+
+
+* LCM calculation
+
+
+* Sieve of Eratosthenes
+
+
+* Prime factorization
+
+
+* Modular arithmetic
+
+
+Pattern 3: Combinatorics and Probability
+#	Problem	Link
+16	Pascal's Triangle	118	DONE
+17	Pascal's Triangle II	119
+18	Unique Paths	62	DONE
+19	K-th Symbol in Grammar	779
+20	Soup Servings	808	DONE
+21	Poor Pigs	458
+22	Nth Person Gets Nth Seat	1227	DONE
+Concepts: Permutations, combinations, Pascal's Triangle, probability, mathematical recurrence.
+Pattern 4: Modular Arithmetic and Fast Power
+High Interview Value
+#	Problem	Link
+23	Pow(x, n)	50	DONE
+24	Super Pow	372	DONE
+25	Count Good Numbers	1922
+26	Mirror Reflection	858	DONE
+27	Angle Between Hands of a Clock	1344	DONE
+Concepts: Binary exponentiation, modulo properties, overflow handling, modular exponentiation.
+Pattern 5: Geometry – Coordinates and Distance
+Important
+Important Definitions and Formulas Coordinate Geometry - (Maths) Class 10
+
+
+
+edurev.in
+#	Problem	Link
+28	Valid Square	593	DONE
+29	Check if It Is a Straight Line	1232
+30	Minimum Area Rectangle	939	DONE
+31	Erect the Fence	587
+32	Max Points on a Line	149	DONE
+33	Largest Triangle Area	812
+34	Detect Squares	2013	DONE
+Concepts:
+* Euclidean distance
+
+
+* Slope
+
+
+* Cross product
+
+
+* Collinearity
+
+
+* Rectangle and square validation
+
+
+* Convex hull
+
+
+Pattern 6: Matrix and Grid Geometry
+#	Problem	Link
+35	Rotate Image	48	DONE
+36	Spiral Matrix	54
+37	Set Matrix Zeroes	73
+38	Valid Sudoku	36
+39	Game of Life	289
+40	Rectangle Overlap	836
+Concepts: Matrix traversal, rotation, coordinate transformation, boundary conditions, geometric overlap.
+10 Advanced Questions
+Ye questions thode difficult hain. Core patterns ke baad solve karna.
+#	Problem	Link
+41	Max Points on a Line	149	DONE
+42	Convex Polygon	587	DONE
+43	Number of Boomerangs	447
+44	Rectangle Area	223
+45	Minimum Time Visiting All Points	1266
+46	Reach a Number	754
+47	Self Crossing	335
+48	Mirror Reflection	858	DONE
+49	Maximum Points Inside the Square	3143
+50	Minimum Moves to Equal Array Elements II	462	DONE
+Top 15 Must-Do Questions
+Agar interview preparation ke liye priority set karni hai, toh ye questions pehle solve karna.
+Priority	Problem	Main Concept
+1	Palindrome Number – 9	Digit manipulation
+2	Reverse Integer – 7	Overflow
+3	Factorial Trailing Zeroes – 172	Prime factors
+4	Count Primes – 204	Sieve
+5	Pow(x, n) – 50	Binary exponentiation
+6	Pascal's Triangle – 118	Combinatorics
+7	Happy Number – 202	Cycle detection
+8	Perfect Squares – 279	Number theory + DP
+9	Rotate Image – 48	Matrix transformation
+10	Spiral Matrix – 54	Matrix traversal
+11	Valid Square – 593	Distance
+12	Check Straight Line – 1232	Geometry
+13	Max Points on a Line – 149	Slope
+14	Rectangle Overlap – 836	Coordinate geometry
+15	Erect the Fence – 587	Convex hull
+Java Math & Geometry Cheat Sheet
+// GCD - Euclidean Algorithm
+static int gcd(int a, int b) {
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
+
+// LCM
+static long lcm(long a, long b) {
+    return (a / gcd((int) a, (int) b)) * b;
+}
+
+// Binary Exponentiation
+static long power(long a, long b) {
+    long result = 1;
+
+    while (b > 0) {
+        if ((b & 1) == 1) {
+            result *= a;
+        }
+
+        a *= a;
+        b >>= 1;
+    }
+
+    return result;
+}
+
+// Distance between two points
+static double distance(
+    int x1, int y1, int x2, int y2
+) {
+    long dx = (long) x2 - x1;
+    long dy = (long) y2 - y1;
+
+    return Math.sqrt(dx * dx + dy * dy);
+}
+
+// Cross Product
+static long crossProduct(
+    int x1, int y1,
+    int x2, int y2,
+    int x3, int y3
+) {
+    return (long) (x2 - x1) * (y3 - y1)
+         - (long) (y2 - y1) * (x3 - x1);
+}
+Note: Competitive programming mein modular power ke liye multiplication ko mod ke saath karna zaroori hai. Cross product mein bhi large coordinates ke liye overflow carefully handle karna.
+7-Day Study Plan
+Day	Topics	Questions
+1	Basic Mathematics	8
+2	GCD, LCM, Prime Numbers	7
+3	Combinatorics + Probability	7
+4	Modular Arithmetic + Fast Power	5
+5	Coordinate Geometry	7
+6	Matrix + Grid Geometry	6
+7	Advanced Problems + Revision	10	DONE
+Meri recommendation
+Bhai, Math & Geometry mein har question ka code yaad karne ki zaroorat nahi hai.
+Ye 6 concepts strong karna:
+1. GCD, LCM aur Prime Factorization
+
+
+2. Sieve of Eratosthenes
+
+
+3. Binary Exponentiation
+
+
+4. Modular Arithmetic
+
+
+5. Coordinate Geometry (distance, slope, cross product)
+
+
+6. Matrix Transformation
+
+
+Interview priority: Pehle Top 15 complete karo. Convex Hull, Self Crossing aur advanced probability jaise questions ko baad mein rakhna. Ye comparatively specialized topics hain.
+Math & Geometry mein sabse important skill hai mathematical observation — kabhi-kabhi 20 lines ka code ek mathematical property se 3 lines mein solve ho jata hai.
+
+
+
+
+Bilkul bhai! Ab Bit Manipulation ki complete interview-focused DSA question sheet banate hain.
+Bit Manipulation mein interviewer check karta hai ki tum binary representation, XOR properties, bit masks, set bits aur bitwise optimization samajhte ho ya nahi.
+Java mein ye topic especially useful hai because bitwise operations fast hote hain aur kuch problems mein normal approaches se better solutions milte hain.
+Bit Manipulation – Complete Interview Question Sheet
+35 Core Questions
+10 Advanced Questions
+Java DSA
+Pattern 1: Basic Bit Manipulation
+Sabse pehle basic operations master karna.
+#	Problem	Link
+1	Single Number	136	DONE
+2	Number of 1 Bits	191
+3	Counting Bits	338	DONE
+4	Reverse Bits	190
+5	Power of Two	231
+6	Power of Four	342	DONE
+7	Number Complement	476
+8	Hamming Distance	461	DONE
+Concepts:
+* AND (&), OR (|), XOR (^)
+
+
+* NOT (~)
+
+
+* Left shift (<<), Right shift (>>)
+
+
+* Unsigned right shift (>>>)
+
+
+* Set bit, clear bit, toggle bit
+
+
+* n & (n - 1)
+
+
+Pattern 2: XOR-Based Problems
+Very Important
+XOR Bit Manipulation ka sabse important concept hai.
+#	Problem	Link
+9	Single Number II	137	DONE
+10	Single Number III	260
+11	Missing Number	268	DONE
+12	Find the Difference	389
+13	XOR Queries of a Subarray	1310
+14	Decode XORed Array	1720	DONE
+15	XOR Operation in an Array	1486
+16	Find XOR of Numbers from L to R	GFG	DONE
+Concepts:
+* a ^ a = 0
+
+
+* a ^ 0 = a
+
+
+* XOR is associative and commutative.
+
+
+* XOR prefix
+
+
+* Find unique elements
+
+
+* XOR partitioning
+
+
+Pattern 3: Bit Masking
+Bit masking ka use tab hota hai jab tumhe multiple Boolean states ko ek integer mein represent karna ho.
+#	Problem	Link
+17	Subsets	78	DONE
+18	Letter Case Permutation	784	DONE
+19	Maximum Product of Word Lengths	318	DONE
+20	Matchsticks to Square	473	DONE
+21	Can I Win	464	DONE
+22	Maximum AND Sum of Array	2172
+23	Smallest Sufficient Team	1125	DONE
+Concepts:
+* Bitmask representation
+
+
+* Subset generation
+
+
+* Check whether a bit is set
+
+
+* State compression
+
+
+* Bitmask DP
+
+
+Pattern 4: Bitwise AND / OR Problems
+#	Problem	Link
+24	Bitwise AND of Numbers Range	201	DONE
+25	Maximum XOR of Two Numbers in an Array	421	DONE
+26	Maximum XOR With an Element From Array	1707	DONE
+27	Minimum Flips to Make a OR b Equal to c	1318
+28	Sum of Two Integers	371	DONE
+29	Bitwise ORs of Subarrays	898
+30	Longest Nice Subarray	2401	DONE
+Concepts:
+* Common prefix of binary numbers
+
+
+* Maximum XOR
+
+
+* XOR Trie
+
+
+* AND/OR properties
+
+
+* Bitwise addition without +
+
+
+Pattern 5: Advanced Bit Manipulation
+High Interview Value
+#	Problem	Link
+31	Reverse Integer	7	DONE
+32	Add Binary	67	DONE
+33	Integer Replacement	397
+34	Minimum One Bit Operations to Make Integers Zero	1611	DONE
+35	Maximum XOR Product	2939	DONE
+Pattern 6: Advanced Bitmask DP
+Ye relatively difficult questions hain. Advanced interviews ke liye useful.
+#	Problem	Link
+36	Traveling Salesman Problem	GFG	DONE
+37	Shortest Path Visiting All Nodes	847	DONE
+38	Partition to K Equal Sum Subsets	698	DONE
+39	Number of Ways to Wear Different Hats to Each Other	1434	DONE
+40	Maximum Students Taking Exam	1349	DONE
+Additional 5 Advanced Questions
+#	Problem	Link
+41	Find Kth Largest XOR Coordinate Value	1738
+42	Count Triplets That Can Form Two Arrays of Equal XOR	1442
+43	Minimum XOR Sum of Two Arrays	1879
+44	Maximum Genetic Difference Query	1938
+45	Find a Value of a Mysterious Function Closest to Target	1521
+Top 15 Must-Do Questions
+Agar interview preparation ke liye priority set karni hai toh ye 15 pehle complete karo.
+Priority	Problem	Main Concept
+1	Single Number – 136	XOR
+2	Number of 1 Bits – 191	Set bits
+3	Counting Bits – 338	DP + Bits
+4	Reverse Bits – 190	Bit shifting
+5	Power of Two – 231	n & (n-1)
+6	Missing Number – 268	XOR
+7	Single Number II – 137	Bit counting
+8	Single Number III – 260	XOR partition
+9	Subsets – 78	Bitmask
+10	Bitwise AND of Numbers Range – 201	Common prefix
+11	Sum of Two Integers – 371	XOR + Carry
+12	Maximum XOR of Two Numbers – 421	Trie + XOR
+13	Minimum Flips – 1318	AND/OR
+14	Longest Nice Subarray – 2401	Sliding Window + Bits
+15	Smallest Sufficient Team – 1125	Bitmask DP
+Java Bit Manipulation Cheat Sheet
+Ye operations yaad rakhna:
+// Check whether ith bit is set
+boolean isSet = (n & (1 << i)) != 0;
+
+// Set ith bit
+n = n | (1 << i);
+
+// Clear ith bit
+n = n & ~(1 << i);
+
+// Toggle ith bit
+n = n ^ (1 << i);
+
+// Remove rightmost set bit
+n = n & (n - 1);
+
+// Get rightmost set bit
+int rightmost = n & -n;
+
+// Check power of 2
+boolean isPowerOfTwo = n > 0 && (n & (n - 1)) == 0;
+
+// Count set bits
+int count = Integer.bitCount(n);
+
+// Unsigned right shift
+n = n >>> 1;
+Java caution: 1 << i signed 32-bit integer hota hai. 31st bit aur 32-bit masks ke liye carefully kaam karna. long masks ke liye 1L << i use karo.
+5-Day Study Plan
+Day	Topics	Questions
+1	Basic Bit Manipulation	8
+2	XOR Patterns	8
+3	Bit Masking	7
+4	AND/OR + Advanced Bits	12
+5	Bitmask DP + Revision	10
+Meri recommendation
+Bhai, Bit Manipulation ke liye 45 questions karna compulsory nahi hai.
+Pehle ye 5 concepts perfectly samajhna:
+1. XOR properties
+
+
+2. Set / Clear / Toggle bits
+
+
+3. n & (n - 1)
+
+
+4. Bitmask se subsets generate karna
+
+
+5. XOR Trie aur Bitmask DP
+
+
+Ek important baat: Bit Manipulation mein formula ratne se zyada binary representation samajhna zaroori hai. Har operation ko 4-bit ya 8-bit binary example ke saath dry run karna.
+Agar ye concepts strong ho gaye, toh interview ke most common Bit Manipulation questions confidently approach kar paoge.
+
+
+
+
+Bilkul bhai! Ab Graphs ka Advanced Interview Preparation Sheet banate hain. Ismein normal BFS/DFS aur basic graph questions se aage ke patterns cover karenge.
+Advanced Graphs mein interviewer generally check karta hai ki tum problem ko dekhkar correct algorithm identify kar paate ho ya nahi — Dijkstra, DSU, MST, Tarjan, Kosaraju, Topological Sort, etc.
+Advanced Graphs – Interview Question Sheet
+40 Core Questions
+10 Advanced Questions
+Java DSA
+Pattern 1: Advanced Shortest Path
+Very Important
+#	Problem	Link
+1	Network Delay Time	743	DONE
+2	Cheapest Flights Within K Stops	787	DONE
+3	Path With Minimum Effort	1631	DONE
+4	Path with Maximum Probability	1514	DONE
+5	Swim in Rising Water	778
+6	Minimum Cost to Make at Least One Valid Path in a Grid	1368
+7	Shortest Path Visiting All Nodes	847	DONE
+8	Shortest Path to Get All Keys	864
+9	Second Minimum Time to Reach Destination	2045
+10	Minimum Obstacle Removal to Reach Corner	2290	DONE
+Concepts: Dijkstra, Bellman-Ford, 0-1 BFS, Multi-source BFS, State-space BFS.
+Pattern 2: Disjoint Set Union (DSU) – Advanced
+#	Problem	Link
+11	Redundant Connection	684	DONE
+12	Redundant Connection II	685
+13	Accounts Merge	721	DONE
+14	Most Stones Removed with Same Row or Column	947
+15	Remove Max Number of Edges to Keep Graph Fully Traversable	1579
+16	Checking Existence of Edge Length Limited Paths	1697	DONE
+17	Satisfiability of Equality Equations	990	DONE
+18	Minimize Malware Spread	924	DONE
+Concepts: Union-Find, Path Compression, Union by Rank/Size, Offline Queries.
+Pattern 3: Minimum Spanning Tree (MST)
+#	Problem	Link
+19	Min Cost to Connect All Points	1584	DONE
+20	Connecting Cities With Minimum Cost	1135	DONE
+21	Optimize Water Distribution in a Village	1168	DONE
+22	Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree	1489	DONE
+Concepts: Kruskal, Prim, DSU, Critical Edges, MST properties.
+Pattern 4: Strongly Connected Components (SCC)
+Important for advanced interviews
+#	Problem	Link
+23	Critical Connections in a Network	1192	DONE
+24	Maximum Employees to Be Invited to a Meeting	2127	DONE
+25	Longest Cycle in a Graph	2360	DONE
+26	Find Eventual Safe States	802	DONE
+GFG implementation practice:
+* Kosaraju's Algorithm – SCC
+
+
+* Tarjan's Algorithm – SCC
+
+
+Concepts: Kosaraju, Tarjan, Discovery Time, Low Link Values, SCC condensation graph.
+Pattern 5: Bridges and Articulation Points
+#	Problem	Link
+27	Critical Connections in a Network	1192	DONE
+28	Minimum Number of Days to Disconnect Island	1568	DONE
+GFG implementation practice:
+* Articulation Point
+
+
+* Bridges in Graph
+
+
+Concepts: Tarjan's Algorithm, Discovery Time, Low Time, DFS Tree.
+Pattern 6: Topological Sort – Advanced
+#	Problem	Link
+29	Course Schedule II	210	DONE
+30	Alien Dictionary	GFG	DONE
+31	Sort Items by Groups Respecting Dependencies	1203
+32	Parallel Courses	1136	DONE
+33	Find All Possible Recipes from Given Supplies	2115	DONE
+Concepts: Kahn's Algorithm, DFS Topological Sort, Cycle Detection, Indegree, DAG.
+Pattern 7: Eulerian Path and Circuit
+#	Problem	Link
+34	Reconstruct Itinerary	332	DONE
+35	Valid Arrangement of Pairs	2097	DONE
+36	Cracking the Safe	753	DONE
+Concepts: Eulerian Path, Eulerian Circuit, Hierholzer's Algorithm, Degree Conditions.
+Pattern 8: Advanced Graph Traversal
+#	Problem	Link
+37	Word Ladder	127	DONE
+38	Word Ladder II	126	DONE
+39	Bus Routes	815
+40	Number of Operations to Make Network Connected	1319	DONE
+Concepts: Bidirectional BFS, Multi-source BFS, Graph Transformation, Component Counting.
+
+10 Extra Advanced Questions
+Ye questions thode challenging hain. Core questions ke baad karna.
+#	Problem	Link
+41	Minimum Cost to Reach Destination in Time	1928	DONE
+42	Shortest Path in a Grid with Obstacles Elimination	1293
+43	Largest Color Value in a Directed Graph	1857
+44	Similar String Groups	839
+45	Minimize Malware Spread II	928
+46	Number of Good Paths	2421	DONE
+47	Checking Existence of Edge Length Limited Paths II	1724
+48	Shortest Path in a Hidden Grid	1778
+49	Critical and Pseudo-Critical Edges in MST	1489
+50	Number of Ways to Arrive at Destination	1976	DONE
+Top 15 Must-Do Advanced Graph Questions
+Agar interview preparation ke liye priority set karni hai, toh ye 15 pehle solve karna:
+Priority	Question	Main Algorithm
+1	Network Delay Time – 743	Dijkstra
+2	Cheapest Flights – 787	Bellman-Ford / Modified BFS
+3	Path With Minimum Effort – 1631	Dijkstra
+4	Swim in Rising Water – 778	Dijkstra / Binary Search
+5	Redundant Connection – 684	DSU
+6	Accounts Merge – 721	DSU
+7	Min Cost to Connect All Points – 1584	Prim / Kruskal
+8	Critical Connections – 1192	Tarjan Bridges
+9	Find Eventual Safe States – 802	DFS / Topological Sort
+10	Alien Dictionary – GFG	Topological Sort
+11	Reconstruct Itinerary – 332	Eulerian Path
+12	Word Ladder – 127	BFS
+13	Word Ladder II – 126	BFS + Backtracking
+14	Shortest Path Visiting All Nodes – 847	State-space BFS
+15	Critical and Pseudo-Critical Edges – 1489	MST + DSU
+Advanced Graphs – 12 Algorithms You Must Know
+Algorithm	Kab use karna hai?
+Dijkstra	Non-negative weighted shortest path
+Bellman-Ford	Negative edge weights
+Floyd-Warshall	All-pairs shortest paths
+0-1 BFS	Edge weights only 0 or 1
+DSU	Connectivity and cycle detection
+Kruskal	Minimum Spanning Tree
+Prim	Minimum Spanning Tree
+Kosaraju	Strongly Connected Components
+Tarjan	SCC, Bridges, Articulation Points
+Kahn's Algorithm	Topological Sorting
+Hierholzer	Eulerian Path / Circuit
+Bidirectional BFS	Shortest path in suitable unweighted graphs
+10-Day Study Plan
+Day	Topic	Target
+1	Dijkstra + Shortest Path	5
+2	Bellman-Ford + 0-1 BFS + Floyd-Warshall	3
+3	DSU Advanced	5
+4	MST – Prim + Kruskal	4
+5	SCC – Kosaraju + Tarjan	3
+6	Bridges + Articulation Points	3
+7	Advanced Topological Sort	5
+8	Eulerian Path + Circuit	3
+9	Advanced BFS + Graph Transformation	4
+10	Revision + Advanced Questions	5
+Meri recommendation
+Bhai, tumne pehle bataya tha ki Graphs ke lectures dekh chuke ho, lekin problems solve karte waqt algorithm choose karne mein confidence kam hai.
+Isliye 50 questions ko ek saath solve karne ka pressure mat lena.
+Sabse pehle ye 5 algorithms strong karo:
+1. Dijkstra
+
+
+2. DSU
+
+
+3. Topological Sort
+
+
+4. Tarjan (Bridges + Articulation Points)
+
+
+5. MST (Prim + Kruskal)
+
+
+Aur ek important baat: Advanced Graphs mein sirf code yaad karna enough nahi hai. Tumhe problem dekhkar explain karna aana chahiye ki BFS kyun nahi, Dijkstra kyun; DFS kyun nahi, DSU kyun.
+Ye skill develop ho gayi toh tum advanced graph interview questions ko independently approach kar paoge.
+
+
+
+
+Bilkul bhai! Ab 2-D Dynamic Programming (2D DP) ki complete interview-focused question sheet banate hain.
+2D DP mein generally state do dimensions par depend karti hai, jaise:
+* dp[i][j] → first i elements aur target j.
+
+
+* dp[i][j] → string A ke first i aur string B ke first j characters.
+
+
+* dp[i][j] → grid ke cell (i, j) tak ka answer.
+
+
+* dp[i][j] → two sequences ke indices i aur j ka answer.
+
+
+Tumhare liye important hai ki har problem mein state, transition, base case aur traversal order identify karna seekho.
+2D DP – Complete Interview Question Sheet
+40 Core Questions
+10 Advanced Questions
+Java DSA
+Pattern 1: Grid-Based DP
+Is pattern mein dp[i][j] usually grid ke kisi cell tak pahunchne ka answer store karta hai.
+How to Improve Algorithmic Thinking Skills in DSA?
+
+
+
+enjoyalgorithms.com
+#	Problem	Link
+1	Unique Paths	62	DONE
+2	Unique Paths II	63
+3	Minimum Path Sum	64	DONE
+4	Dungeon Game	174
+5	Cherry Pickup	741
+6	Cherry Pickup II	1463	DONE
+7	Minimum Falling Path Sum	931
+8	Maximum Falling Path Sum	GFG	DONE
+Concepts: Grid traversal, right/down movement, obstacles, minimum/maximum path, multi-agent DP.
+Pattern 2: 0/1 Knapsack DP
+Very Important
+Ismein har item ko either choose karoge ya skip.
+#	Problem	Link
+9	0/1 Knapsack	GFG	DONE
+10	Partition Equal Subset Sum	416
+11	Target Sum	494	DONE
+12	Last Stone Weight II	1049
+13	Ones and Zeroes	474	DONE
+14	Profitable Schemes	879
+15	Tallest Billboard	956	DONE
+Concepts: Take/Not Take, capacity, subset sum, partition, multidimensional knapsack.
+Pattern 3: Unbounded Knapsack DP
+Yahan ek item ko multiple times use kar sakte ho.
+#	Problem	Link
+16	Coin Change	322	DONE
+17	Coin Change II	518	DONE
+18	Combination Sum IV	377	DONE
+19	Rod Cutting	GFG	DONE
+20	Minimum Cost For Tickets	983	DONE
+Concepts: Unlimited reuse, minimum coins, number of combinations, number of permutations.
+Pattern 4: Longest Common Subsequence (LCS)
+Extremely Important
+Do strings ya sequences ke beech relationship find karna.
+#	Problem	Link
+21	Longest Common Subsequence	1143	DONE
+22	Longest Common Substring	GFG
+23	Shortest Common Supersequence	1092	DONE
+24	Delete Operation for Two Strings	583
+25	Minimum ASCII Delete Sum for Two Strings	712	DONE
+26	Uncrossed Lines	1035
+27	Minimum Insertion Steps to Make a String Palindrome	1312	DONE
+Concepts: Matching characters, mismatch transitions, sequence comparison, reconstruction of answers.
+Pattern 5: Edit Distance / String DP
+#	Problem	Link
+28	Edit Distance	72	DONE
+29	Distinct Subsequences	115
+30	Interleaving String	97	DONE
+31	Regular Expression Matching	10	DONE
+32	Wildcard Matching	44
+33	Is Subsequence	392	DONE
+Concepts: Insert, Delete, Replace, Matching, Wildcards, String subsequences.
+Pattern 6: Longest Increasing Subsequence – 2D Approach
+#	Problem	Link
+34	Longest Increasing Subsequence	300	DONE
+35	Russian Doll Envelopes	354	DONE
+36	Maximum Length of Pair Chain	646	DONE
+37	Number of Longest Increasing Subsequence	673	DONE
+Concepts: Previous element comparison, sorting + DP, LIS counting.
+Note: LIS ka optimized solution 1D DP + Binary Search bhi hota hai. Yahan focus uske 2D-style state reasoning aur related variations par hai.
+Pattern 7: Interval DP / Partition DP
+Advanced Interview Pattern
+#	Problem	Link
+38	Burst Balloons	312	DONE
+39	Minimum Score Triangulation of Polygon	1039
+40	Strange Printer	664	DONE
+41	Minimum Cost to Cut a Stick	1547	DONE
+42	Palindrome Partitioning II	132
+43	Minimum Cost Tree From Leaf Values	1130	DONE
+Concepts: dp[i][j], interval boundaries, partition point k, solve smaller intervals first.
+Pattern 8: State DP / Other Advanced Problems
+#	Problem	Link
+44	Best Time to Buy and Sell Stock III	123	DONE
+45	Best Time to Buy and Sell Stock IV	188
+46	Best Time to Buy and Sell Stock with Cooldown	309	DONE
+47	Best Time to Buy and Sell Stock with Transaction Fee	714
+48	Maximal Square	221	DONE
+49	Maximal Rectangle	85	DONE
+50	Number of Paths with Max Score	1301	DONE
+Top 15 Must-Do Questions
+Agar tumhe interview preparation ke liye sabse important questions select karne hain, toh ye order follow karo:
+Priority	Question	Pattern
+1	Unique Paths – 62	Grid DP
+2	Unique Paths II – 63	Grid DP
+3	Minimum Path Sum – 64	Grid DP
+4	0/1 Knapsack – GFG	Knapsack
+5	Partition Equal Subset Sum – 416	Knapsack
+6	Target Sum – 494	Knapsack
+7	Coin Change – 322	Unbounded Knapsack
+8	Coin Change II – 518	Unbounded Knapsack
+9	Longest Common Subsequence – 1143	LCS
+10	Edit Distance – 72	String DP
+11	Distinct Subsequences – 115	String DP
+12	Interleaving String – 97	String DP
+13	Burst Balloons – 312	Interval DP
+14	Longest Increasing Subsequence – 300	LIS
+15	Cherry Pickup II – 1463	3D State DP
+2D DP ke 6 major patterns
+Grid Unique Paths (Unique Paths)
+
+
+
+1. Grid DP
+dp[i][j] → grid cell ka answer.
+
+Solve 0-1 Knapsack Problem (using Dynamic Programming)
+
+
+
+2. Knapsack DP
+dp[i][capacity] → item choose ya skip.
+
+Print Longest Common Subsequence | (DP - 26) - Tutorial
+
+
+
+3. LCS DP
+dp[i][j] → two strings ke prefixes ka answer.
+
+Measuring Text Similarity Using the Levenshtein Distance | Paperspace Blog
+
+
+
+4. Edit Distance DP
+Insert, Delete, Replace.
+
+Matrix Chain Multiplication using Dynamic Programming | Simplilearn
+
+
+
+5. Interval DP
+dp[i][j] → interval [i, j] ka answer.
+
+Best Time to Buy and Sell Stock with Cooldown - LeetCode
+
+
+
+6. State DP
+Index + transaction/state ke basis par answer.
+10-Day Study Plan
+Day	Pattern	Questions
+1	Grid DP	4
+2	0/1 Knapsack	4
+3	Unbounded Knapsack	5
+4	LCS	4
+5	Edit Distance / String DP	4
+6	LIS	4
+7	Interval DP	3
+8	Stock / State DP	4
+9	Advanced Grid DP	4
+10	Revision + Advanced Problems	5
+2D DP solve karne ka framework
+Har question mein ye 5 steps follow karna:
+1. State define karo: dp[i][j] actually represent kya kar raha hai?
+
+
+2. Base case: Smallest possible input ka answer kya hoga?
+
+
+3. Transition: Previous states se current answer kaise banega?
+
+
+4. Traversal order: Kaunsi direction mein table fill karna hai?
+
+
+5. Space optimization: Kya previous row/column se kaam chal sakta hai?
+
+
+Ek important distinction: Har question jisme dp[i][j] likha ho, zaroori nahi ki woh fundamentally 2D DP hi ho. Kuch problems ko 1D ya 3D DP mein bhi optimize kiya ja sakta hai.
+Meri recommendation: tum pehle Grid DP, 0/1 Knapsack aur LCS ko strong karo. Ye teen patterns samajh aa gaye toh baaki 2D DP problems ko classify karna kaafi easier ho jayega.
+
+
+
+
+Bilkul bhai! Trees ke liye ek complete interview-focused DSA sheet banate hain. Isme Binary Tree, BST, DFS, BFS, Recursion, Tree Construction, LCA, Diameter, Serialization aur Advanced Tree problems cover honge.
+Trees mein interview questions kaafi frequently aate hain, especially recursion + DFS + BFS.
+Trees – Interview Preparation Sheet
+
+40 Core Questions
+10 Advanced Questions
+
+Pattern 1: Binary Tree Fundamentals
+Pehle recursion, traversal aur basic tree structure strong karo.
+#	Problem	LeetCode
+1	Binary Tree Inorder Traversal	94	DONE
+2	Binary Tree Preorder Traversal	144
+3	Binary Tree Postorder Traversal	145
+4	Binary Tree Level Order Traversal	102	DONE
+5	Binary Tree Level Order Traversal II	107
+6	Maximum Depth of Binary Tree	104
+7	Minimum Depth of Binary Tree	111	DONE
+8	Same Tree	100
+9	Symmetric Tree	101
+10	Invert Binary Tree	226	DONE
+Pattern 2: DFS – Tree Recursion
+Very important
+#	Problem	LeetCode
+11	Diameter of Binary Tree	543	DONE
+12	Balanced Binary Tree	110
+13	Path Sum	112	DONE
+14	Path Sum II	113
+15	Binary Tree Maximum Path Sum	124
+16	Sum Root to Leaf Numbers	129	DONE
+17	Count Good Nodes in Binary Tree	1448
+18	Binary Tree Paths	257	DONE
+Pattern 3: BFS – Level Order / Tree Views
+#	Problem	LeetCode
+19	Binary Tree Zigzag Level Order Traversal	103	DONE
+20	Binary Tree Right Side View	199
+21	Average of Levels in Binary Tree	637	DONE
+22	Find Largest Value in Each Tree Row	515	DONE
+23	Binary Tree Vertical Order Traversal	987
+24	Maximum Width of Binary Tree	662	DONE
+Pattern 4: Lowest Common Ancestor (LCA)
+Interview ke liye important pattern.
+#	Problem	LeetCode
+25	Lowest Common Ancestor of a Binary Tree	236	DONE
+26	Lowest Common Ancestor of a BST	235	DONE
+27	All Nodes Distance K in Binary Tree	863	DONE
+Pattern 5: Binary Search Tree (BST)
+Must prepare
+#	Problem	LeetCode
+28	Search in a Binary Search Tree	700	DONE
+29	Insert into a Binary Search Tree	701
+30	Delete Node in a BST	450	DONE
+31	Validate Binary Search Tree	98
+32	Kth Smallest Element in a BST	230
+33	Convert Sorted Array to Binary Search Tree	108	DONE
+34	BST Iterator	173
+35	Recover Binary Search Tree	99	DONE
+Pattern 6: Tree Construction & Serialization
+#	Problem	LeetCode
+36	Construct Binary Tree from Preorder and Inorder Traversal	105	DONE
+37	Construct Binary Tree from Inorder and Postorder Traversal	106	DONE
+38	Serialize and Deserialize Binary Tree	297
+39	Flatten Binary Tree to Linked List	114	DONE
+40	Populating Next Right Pointers in Each Node	116	DONE
+Additional 10 – Advanced Tree Questions
+#	Problem	LeetCode
+41	House Robber III	337
+42	Distribute Coins in Binary Tree	979
+43	Binary Tree Cameras	968
+44	Maximum Difference Between Node and Ancestor	1026
+45	Find Duplicate Subtrees	652
+46	Path Sum III	437
+47	Recover a Tree From Preorder Traversal	1028
+48	Sum of Distances in Tree	834
+49	Maximum Sum BST in Binary Tree	1373
+50	Count Complete Tree Nodes	222
+10 concepts jo Trees interviews ke liye master karne hain
+1. Recursive DFS – Preorder, Inorder, Postorder
+
+
+2. Iterative DFS using Stack
+
+
+3. BFS using Queue
+
+
+4. Height, Depth and Diameter
+
+
+5. Balanced Binary Tree
+
+
+6. Root-to-Leaf Path Problems
+
+
+7. Lowest Common Ancestor
+
+
+8. BST properties and operations
+
+
+9. Tree Construction from Traversals
+
+
+10. Serialization and Deserialization
+
+
+10 must-do questions
+Agar interview preparation ke liye limited time hai, toh inhe bilkul skip mat karna:
+Top 10 Priority
+#	Problem
+1	104 – Maximum Depth
+2	102 – Level Order Traversal
+3	543 – Diameter of Binary Tree
+4	110 – Balanced Binary Tree
+5	236 – Lowest Common Ancestor
+6	124 – Binary Tree Maximum Path Sum
+7	98 – Validate BST
+8	230 – Kth Smallest in BST
+9	105 – Construct Tree from Preorder + Inorder
+10	297 – Serialize and Deserialize
+10-Day study plan
+Day	Topics	Questions
+1	Traversals + Basic Tree	10
+2	DFS Recursion	8
+3	BFS + Tree Views	6
+4	LCA + Distance	3
+5	BST Basics	4
+6	Advanced BST	4
+7	Tree Construction	3
+8	Serialization + Flattening	2
+9	Advanced Trees	5
+10	Remaining Advanced + Revision	5
+Meri advice
+Tumne pehle bataya tha ki Trees mein confidence weak hai. Isliye ek important suggestion: 50 questions ek saath solve karne ki koshish mat karna.
+Pehle recursion ko tree ke context mein samajhna hai:
+int solve(TreeNode root) {
+
+    if (root == null) {
+        return 0;
+    }
+
+    int left = solve(root.left);
+    int right = solve(root.right);
+
+    return 1 + Math.max(left, right);
+}
+Ye Maximum Depth ka basic recursive structure hai.
+Har problem mein ye 4 questions poochna:
+1. Current node par mujhe kya kaam karna hai?
+
+
+2. Left subtree se kya answer chahiye?
+
+
+3. Right subtree se kya answer chahiye?
+
+
+4. Dono answers use karke current node ka answer kaise banaunga?
+
+
+Yahi Tree Recursion ki foundation hai. Java mein isi thinking ko master karna hai, solutions ratne nahi hain.
+
+
+
+
+Bilkul bhai! Ab Trie (Prefix Tree) ki interview-focused question sheet banate hain.
+Trie ka use mainly Strings, Prefix Search, Dictionary, Word Search, Autocomplete aur XOR problems mein hota hai.
+Trees ke comparison mein Trie ke questions relatively kam hain, lekin kuch patterns bahut important hain.
+Trie – Interview Preparation Sheet
+
+20 Core Questions
+5 Advanced Questions
+
+Pattern 1: Trie Fundamentals
+Sabse pehle Trie implementation aur prefix searching samajhna.
+#	Problem	LeetCode
+1	Implement Trie (Prefix Tree)	208	DONE
+2	Design Add and Search Words Data Structure	211	DONE
+3	Implement Trie II (Prefix Tree)	1804
+4	Map Sum Pairs	677	DONE
+5	Prefix and Suffix Search	745	DONE
+Pattern 2: Trie + DFS / Backtracking
+Very important
+#	Problem	LeetCode
+6	Word Search II	212	DONE
+7	Word Search	79	DONE
+8	Replace Words	648
+9	Word Squares	425	DONE
+10	Concatenated Words	472	DONE
+Pattern 3: Trie + Bit Manipulation (XOR)
+Ye pattern competitive programming aur advanced interviews mein useful hai.
+#	Problem	LeetCode
+11	Maximum XOR of Two Numbers in an Array	421	DONE
+12	Maximum XOR With an Element From Array	1707	DONE
+13	Count Pairs With XOR in a Range	1803	DONE
+14	Maximum Strong Pair XOR II	2935	DONE
+Pattern 4: Prefix Search / Dictionary
+#	Problem	LeetCode
+15	Longest Word in Dictionary	720	DONE
+16	Search Suggestions System	1268
+17	Stream of Characters	1032	DONE
+18	Short Encoding of Words	820	DONE
+19	Longest Common Prefix	14
+20	Prefix Count	2185	DONE
+Additional 5 – Advanced
+#	Problem	LeetCode
+21	Distinct Echo Substrings	1316
+22	Palindrome Pairs	336
+23	Substring with Concatenation of All Words	30
+24	Maximum XOR of Two Numbers in an Array (revisit with bitwise Trie)	421
+25	Word Break II	140	DONE
+Note: Kuch additional questions Trie ke saath alternative data structures se bhi solve ho sakte hain. Unhe Trie-specific practice ke bajay related interview problems samajhna.
+
+7-Day study plan
+Day	Pattern	Questions
+1	Trie Fundamentals	5
+2	Trie + DFS / Backtracking	5
+3	Bitwise Trie / XOR	4
+4	Prefix Search / Dictionary	6
+5	Advanced Trie	5
+6	Revision + Implementation	Weak questions
+7	Interview mock practice	Mixed
+6 concepts jo master karne hain
+1. Trie Node implementation
+
+
+2. Insert a word
+
+
+3. Search a complete word
+
+
+4. Search a prefix
+
+
+5. Delete a word / maintain prefix counts
+
+
+6. Bitwise Trie for maximum XOR
+
+
+Java mein basic Trie structure
+class TrieNode {
+    TrieNode[] children = new TrieNode[26];
+    boolean isEndOfWord;
+}
+
+class Trie {
+    TrieNode root;
+
+    Trie() {
+        root = new TrieNode();
+    }
+}
+Top 8 – Bilkul skip mat karna
+Interview Priority
+1. 208 – Implement Trie
+
+
+2. 211 – Design Add and Search Words
+
+
+3. 212 – Word Search II
+
+
+4. 648 – Replace Words
+
+
+5. 421 – Maximum XOR of Two Numbers
+
+
+6. 1268 – Search Suggestions System
+
+
+7. 720 – Longest Word in Dictionary
+
+
+8. 1707 – Maximum XOR With an Element
+
+
+Meri recommendation: Trie ko 7 din dena zaroori nahi hai. Agar tum daily 3–4 hours de rahe ho, toh 3–4 focused days mein fundamentals aur major patterns cover ho sakte hain.
+Pehle 208 – Implement Trie se start karna. Is question ko properly samajh liya toh Trie ke baaki questions samajhna kaafi easy ho jayega.
+
+
+
+Bilkul bhai! Backtracking ke liye ek complete interview-focused question sheet banate hain. Isme Subsets, Permutations, Combination Sum, String Backtracking, Grid Backtracking, N-Queens aur Advanced problems cover honge.
+Backtracking interviews mein important hai, especially recursion, decision trees aur pruning ke liye.
+Backtracking – Interview Preparation Sheet
+
+35 Core Questions
+10 Advanced Questions
+
+Pattern 1: Basic Backtracking – Subsets
+Sabse pehle choose / not choose wali recursion samajhni hai.
+#	Problem	LeetCode
+1	Subsets	78	DONE
+2	Subsets II	90
+3	Combination Sum	39	DONE
+4	Combination Sum II	40
+5	Combination Sum III	216	DONE
+6	Letter Combinations of a Phone Number	17
+7	Generate Parentheses	22	DONE
+Pattern 2: Permutations
+Har element ko different positions par place karna.
+Very important
+#	Problem	LeetCode
+8	Permutations	46	DONE
+9	Permutations II	47	DONE
+10	Combination	77
+11	Beautiful Arrangement	526	DONE
+12	Matchsticks to Square	473	DONE
+Pattern 3: String Backtracking
+#	Problem	LeetCode
+13	Palindrome Partitioning	131	DONE
+14	Palindrome Partitioning II	132
+15	Restore IP Addresses	93	DONE
+16	Word Break II	140	DONE
+17	Expression Add Operators	282
+18	Letter Case Permutation	784	DONE
+Pattern 4: Grid / Matrix Backtracking
+Very important
+#	Problem	LeetCode
+19	Word Search	79	DONE
+20	Word Search II	212	DONE
+21	Unique Paths III	980
+22	Sudoku Solver	37	DONE
+23	Number of Paths with Maximum Score	1301	DONE
+Pattern 5: Classic Backtracking Problems
+#	Problem	LeetCode
+24	N-Queens	51	DONE
+25	N-Queens II	52	DONE
+26	Knight's Tour	GFG
+27	Rat in a Maze	GFG	DONE
+28	Word Ladder	127	DONE
+Pattern 6: Advanced Backtracking + Pruning
+#	Problem	LeetCode
+29	Partition to K Equal Sum Subsets	698	DONE
+30	Fair Distribution of Cookies	2305
+31	The Number of Beautiful Subsets	2597	DONE
+32	Maximum Length of a Concatenated String with Unique Characters	1239
+33	Splitting a String Into Descending Consecutive Values	1849	DONE
+34	Shopping Offers	638
+35	Optimal Account Balancing	465	DONE
+Additional 10 – Advanced Interview Practice
+#	Problem	LeetCode
+36	Remove Invalid Parentheses	301
+37	Different Ways to Add Parentheses	241
+38	Ambiguous Coordinates	816
+39	Android Unlock Patterns	351
+40	Crack Safe	753
+41	Tiling a Rectangle with the Fewest Squares	1240
+42	Maximum Score Words Formed by Letters	1255
+43	Find Unique Binary String	1980
+44	Split a String Into the Max Number of Unique Substrings	1593
+45	Construct Smallest Number From DI String	2375
+10 most important questions
+Agar interview preparation ke liye limited time hai, toh ye questions priority par rakho:
+Must Do – Top 10
+1. 78 – Subsets
+
+
+2. 90 – Subsets II
+
+
+3. 46 – Permutations
+
+
+4. 47 – Permutations II
+
+
+5. 39 – Combination Sum
+
+
+6. 40 – Combination Sum II
+
+
+7. 22 – Generate Parentheses
+
+
+8. 131 – Palindrome Partitioning
+
+
+9. 79 – Word Search
+
+
+10. 51 – N-Queens
+
+
+7-Day completion plan
+Day	Pattern	Questions
+1	Subsets + Combinations	7
+2	Permutations	5
+3	String Backtracking	6
+4	Grid Backtracking	5
+5	Classic Problems	5
+6	Advanced + Pruning	7
+7	Additional + Revision	10
+6 concepts jo master karne hain
+1. Choose → Explore → Unchoose
+
+
+2. Base Case / Termination Condition
+
+
+3. Backtracking using ArrayList
+
+
+4. Duplicate Handling using Sorting + if (i > start && nums[i] == nums[i-1])
+
+
+5. Pruning – unnecessary recursion branches avoid karna
+
+
+6. Recursion Tree / Decision Tree draw karna
+
+
+Java Backtracking ka basic template
+void backtrack(int start, List<Integer> current,
+               int[] nums, List<List<Integer>> result) {
+
+    // Save current answer
+    result.add(new ArrayList<>(current));
+
+    for (int i = start; i < nums.length; i++) {
+
+        // Choose
+        current.add(nums[i]);
+
+        // Explore
+        backtrack(i + 1, current, nums, result);
+
+        // Unchoose
+        current.remove(current.size() - 1);
+    }
+}
+Meri recommendation
+Tumhari recursion abhi weak hai, isliye Backtracking mein seedha N-Queens ya Sudoku mat start karna.
+Is order mein seekhna:
+1. Subsets
+
+
+2. Subsets II
+
+
+3. Combination Sum
+
+
+4. Permutations
+
+
+5. Permutations II
+
+
+6. Generate Parentheses
+
+
+7. Palindrome Partitioning
+
+
+8. Word Search
+
+
+9. N-Queens
+
+
+Sabse important principle:
+Backtracking = Choice lo → Recursion call karo → Choice undo karo.
+Har question mein pehle decision tree draw karenge, phir recursion logic, phir Java code.
+Yahi approach tumhe unseen interview questions solve karne mein help karegi.
+
+
+
+Bilkul bhai! Heaps / Priority Queue ke liye ek complete interview-focused DSA sheet banate hain.
+Isme Min Heap, Max Heap, Top K Elements, K-way Merge, Two Heaps, Median Finding, Greedy + Heap aur Advanced problems cover honge.
+Heap ke questions interviews mein kaafi important hain, especially jab question mein repeatedly minimum/maximum element nikalna ho.
+Heaps / Priority Queue – Interview Preparation Sheet
+
+30 Core Questions
+10 Advanced Questions
+
+Pattern 1: Heap Fundamentals
+Pehle Min Heap, Max Heap aur Priority Queue samajhna.
+#	Problem	LeetCode
+1	Kth Largest Element in an Array	215	DONE
+2	Kth Smallest Element in a Sorted Matrix	378	DONE
+3	Last Stone Weight	1046
+4	Kth Largest Element in a Stream	703	DONE
+5	Sort an Array	912	DONE
+Pattern 2: Top K Elements
+Very important
+#	Problem	LeetCode
+6	Top K Frequent Elements	347	DONE
+7	Top K Frequent Words	692
+8	K Closest Points to Origin	973	DONE
+9	Find K Pairs with Smallest Sums	373	DONE
+10	Sort Characters By Frequency	451	DONE
+11	Reorganize String	767	DONE
+Pattern 3: K-way Merge
+Sorted arrays ya sorted lists ko efficiently combine karna.
+#	Problem	LeetCode
+12	Merge K Sorted Lists	23	DONE
+13	Smallest Range Covering Elements from K Lists	632	DONE
+14	Find K Pairs with Smallest Sums	373	DONE
+15	Kth Smallest Element in a Sorted Matrix	378	DONE
+Pattern 4: Two Heaps
+Must prepare
+Is pattern mein ek Max Heap aur ek Min Heap maintain karte hain.
+#	Problem	LeetCode
+16	Find Median from Data Stream	295	DONE
+17	Sliding Window Median	480	DONE
+18	IPO	502	DONE
+19	Total Cost to Hire K Workers	2462	DONE
+Pattern 5: Greedy + Heap
+#	Problem	LeetCode
+20	Task Scheduler	621	DONE
+21	Meeting Rooms II	LintCode 919
+22	Minimum Number of Refueling Stops	871	DONE
+23	Furthest Building You Can Reach	1642	DONE
+24	Maximum Performance of a Team	1383	DONE
+25	Process Tasks Using Servers	1882	DONE
+Pattern 6: Heap + Graph / Advanced
+#	Problem	LeetCode
+26	Network Delay Time	743	DONE
+27	Path With Minimum Effort	1631	DONE
+28	Swim in Rising Water	778
+29	Cheapest Flights Within K Stops	787	DONE
+30	Minimum Cost to Connect Sticks	1167	DONE
+Additional 10 – Advanced Interview Practice
+#	Problem	LeetCode
+31	IPO (revisit with two heaps / greedy)	502
+32	Distant Barcodes	1054
+33	Seat Reservation Manager	1845
+34	Maximum Subsequence Score	2542
+35	Minimum Operations to Halve Array Sum	2208
+36	Take Gifts From the Richest Pile	2558
+37	Minimum Cost to Hire K Workers	857
+38	Maximum Number of Events That Can Be Attended	1353	DONE
+39	Meeting Rooms III	2402	DONE
+40	Find Median from Data Stream (revisit with balancing proof)	295
+10 Must-Do Questions
+Agar interview preparation ke liye limited time hai, toh ye questions priority par rakho:
+Top 10 Priority
+1. 215 – Kth Largest Element
+
+
+2. 347 – Top K Frequent Elements
+
+
+3. 973 – K Closest Points to Origin
+
+
+4. 23 – Merge K Sorted Lists
+
+
+5. 295 – Find Median from Data Stream
+
+
+6. 621 – Task Scheduler
+
+
+7. 871 – Minimum Number of Refueling Stops
+
+
+8. 1642 – Furthest Building You Can Reach
+
+
+9. 743 – Network Delay Time
+
+
+10. 2462 – Total Cost to Hire K Workers
+
+
+6 concepts jo master karne hain
+1. Min Heap vs Max Heap
+
+
+2. Heapify, Insert and Remove
+
+
+3. Top K using Min Heap / Max Heap
+
+
+4. K-way Merge
+
+
+5. Two Heaps – Median Finding
+
+
+6. Greedy + Priority Queue
+
+
+Java PriorityQueue Cheat Sheet
+Java mein PriorityQueue default Min Heap hota hai.
+// Min Heap
+PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+// Max Heap
+PriorityQueue<Integer> maxHeap =
+    new PriorityQueue<>(Collections.reverseOrder());
+
+// Insert
+minHeap.offer(10);
+
+// Remove smallest
+minHeap.poll();
+
+// Get smallest without removing
+minHeap.peek();
+
+// Size
+minHeap.size();
+For custom objects:
+PriorityQueue<int[]> pq = new PriorityQueue<>(
+    (a, b) -> Integer.compare(a[1], b[1])
+);
+a[1] ke basis par Min Heap banega.
+7-Day Study Plan
+Day	Pattern	Questions
+1	Heap Fundamentals	5
+2	Top K Elements	6
+3	K-way Merge	4
+4	Two Heaps	4
+5	Greedy + Heap	6
+6	Heap + Graph	5
+7	Advanced + Revision	10
+Meri recommendation
+Tumhare Java DSA interview preparation ke liye sabse pehle ye 4 patterns master karna:
+* Top K Elements
+
+
+* K-way Merge
+
+
+* Two Heaps
+
+
+* Greedy + Heap
+
+
+Ek important observation: Har question mein PriorityQueue use karna zaroori nahi hai. Interviewer ko pehle problem-solving approach samjhana, phir justify karna ki Heap kyun use kar rahe ho aur complexity kya hai.
+40 questions ki poori sheet karne se pehle 10 Must-Do questions independently solve karna. Ye tumhari Heap foundation strong karenge.
+
+
+
+Bilkul bhai! Graphs ke liye ek complete interview-focused DSA question sheet banate hain.
+Graphs DSA ka one of the most important topics hai. Isme BFS, DFS, Cycle Detection, Topological Sort, Shortest Path, MST, DSU aur Advanced Graph Algorithms cover karenge.
+Tumne pehle bataya tha ki Graphs ke lectures dekh chuke ho, lekin ab humein actual problem-solving aur pattern recognition strong karni hai.
+Graphs – Interview Preparation Sheet
+
+40 Core Questions
+10 Advanced Questions
+
+Pattern 1: Graph Fundamentals – BFS & DFS
+Sabse pehle graph representation, adjacency list, traversal aur connected components samajhna.
+#	Problem	Platform
+1	Find if Path Exists in Graph	LeetCode 1971	DONE
+2	Number of Provinces	LeetCode 547	DONE
+3	Number of Connected Components in an Undirected Graph	NeetCode	DONE
+4	Flood Fill	LeetCode 733
+5	Max Area of Island	LeetCode 695
+6	Number of Islands	LeetCode 200	DONE
+7	Clone Graph	LeetCode 133
+8	Keys and Rooms	LeetCode 841	DONE
+Pattern 2: Cycle Detection
+Very important
+Undirected aur directed graphs dono mein cycle detect karna seekhna hai.
+#	Problem	Platform
+9	Detect Cycle in an Undirected Graph	GFG	DONE
+10	Detect Cycle in a Directed Graph	GFG	DONE
+11	Redundant Connection	LeetCode 684	DONE
+12	Is Graph Bipartite?	LeetCode 785	DONE
+13	Possible Bipartition	LeetCode 886	DONE
+Pattern 3: Topological Sorting
+Must prepare
+Directed Acyclic Graph (DAG) aur dependency-based problems ke liye important.
+#	Problem	Platform
+14	Course Schedule	LeetCode 207	DONE
+15	Course Schedule II	LeetCode 210	DONE
+16	Find Eventual Safe States	LeetCode 802	DONE
+17	Alien Dictionary	GFG	DONE
+18	Parallel Courses	LeetCode 1136	DONE
+19	Minimum Height Trees	LeetCode 310	DONE
+Pattern 4: Shortest Path Algorithms
+Extremely important
+Ye pattern interviews mein bahut useful hai. Different graph conditions ke according algorithm choose karna seekho.
+#	Problem	Algorithm / Concept
+20	Shortest Path in Binary Matrix	LeetCode 1091 – BFS	DONE
+21	Rotting Oranges	LeetCode 994 – Multi-source BFS
+22	01 Matrix	LeetCode 542 – Multi-source BFS	DONE
+23	Network Delay Time	LeetCode 743 – Dijkstra	DONE
+24	Path With Minimum Effort	LeetCode 1631 – Dijkstra	DONE
+25	Cheapest Flights Within K Stops	LeetCode 787 – Modified Dijkstra	DONE
+26	Path with Maximum Probability	LeetCode 1514 – Modified Dijkstra	DONE
+27	Shortest Path in a Weighted Undirected Graph	GFG – Dijkstra
+Pattern 5: Disjoint Set Union (DSU / Union Find)
+Very important
+#	Problem	Platform
+28	Number of Provinces	LeetCode 547	DONE
+29	Redundant Connection	LeetCode 684	DONE
+30	Accounts Merge	LeetCode 721	DONE
+31	Number of Operations to Make Network Connected	LeetCode 1319	DONE
+32	Most Stones Removed with Same Row or Column	LeetCode 947
+33	Satisfiability of Equality Equations	LeetCode 990	DONE
+Pattern 6: Minimum Spanning Tree (MST)
+#	Problem	Algorithm / Concept
+34	Min Cost to Connect All Points	LeetCode 1584 – Prim / Kruskal	DONE
+35	Connecting Cities With Minimum Cost	LeetCode 1135 – MST	DONE
+36	Optimize Water Distribution in a Village	LeetCode 1168 – MST	DONE
+Pattern 7: Advanced Graph Problems
+#	Problem	Platform
+37	Word Ladder	LeetCode 127	DONE
+38	Word Ladder II	LeetCode 126	DONE
+39	Critical Connections in a Network	LeetCode 1192	DONE
+40	Reconstruct Itinerary	LeetCode 332	DONE
+Additional 10 – Advanced Interview Practice
+#	Problem	Platform
+41	Swim in Rising Water	LeetCode 778
+42	Shortest Path Visiting All Nodes	LeetCode 847	DONE
+43	All Paths From Source to Target	LeetCode 797
+44	Evaluate Division	LeetCode 399
+45	Making a Large Island	LeetCode 827
+46	Minimum Number of Days to Disconnect Island	LeetCode 1568	DONE
+47	Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree	LeetCode 1489	DONE
+48	Longest Increasing Path in a Matrix	LeetCode 329
+49	Minimum Cost to Make at Least One Valid Path in a Grid	LeetCode 1368
+50	Bus Routes	LeetCode 815
+15 Must-Do Graph Questions
+Agar tumhare paas limited time hai toh pehle ye complete karna:
+Top 15 Interview Priority
+1. 200 – Number of Islands
+
+
+2. 133 – Clone Graph
+
+
+3. 547 – Number of Provinces
+
+
+4. 994 – Rotting Oranges
+
+
+5. 785 – Is Graph Bipartite?
+
+
+6. 207 – Course Schedule
+
+
+7. 210 – Course Schedule II
+
+
+8. 743 – Network Delay Time
+
+
+9. 787 – Cheapest Flights Within K Stops
+
+
+10. 684 – Redundant Connection
+
+
+11. 721 – Accounts Merge
+
+
+12. 1584 – Min Cost to Connect All Points
+
+
+13. 127 – Word Ladder
+
+
+14. 1192 – Critical Connections in a Network
+
+
+15. 332 – Reconstruct Itinerary
+
+
+10 Graph concepts jo master karne hain
+#	Concept	Importance
+1	Graph Representation – List / Matrix	Essential
+2	BFS and DFS	Essential
+3	Connected Components	Essential
+4	Cycle Detection – Directed / Undirected	Essential
+5	Bipartite Graph	High
+6	Topological Sort – BFS / DFS	Essential
+7	Dijkstra's Algorithm	Essential
+8	Disjoint Set Union	High
+9	Prim's and Kruskal's MST	High
+10	Bellman-Ford, Floyd-Warshall, Tarjan's Algorithm	Advanced
+12-Day Study Plan
+Day	Topic	Questions
+1	Graph Representation + BFS / DFS	8
+2	Connected Components + Grid BFS	Revision + practice
+3	Cycle Detection + Bipartite	5
+4	Topological Sorting	6
+5	Shortest Path – BFS	3
+6	Dijkstra	4
+7	Bellman-Ford + Floyd-Warshall	Practice
+8	DSU	6
+9	MST – Prim + Kruskal	3
+10	Advanced Graphs – Tarjan	2
+11	Advanced Graph Problems	5
+12	Revision + Mock Interview	Mixed
+Java Graph Template
+Adjacency List representation:
+import java.util.*;
+
+class Graph {
+    int V;
+    ArrayList<ArrayList<Integer>> adj;
+
+    Graph(int V) {
+        this.V = V;
+        adj = new ArrayList<>();
+
+        for (int i = 0; i < V; i++) {
+            adj.add(new ArrayList<>());
+        }
+    }
+
+    void addEdge(int u, int v) {
+        adj.get(u).add(v);
+        adj.get(v).add(u);
+    }
+
+    void bfs(int start) {
+        boolean[] visited = new boolean[V];
+        Queue<Integer> q = new LinkedList<>();
+
+        q.offer(start);
+        visited[start] = true;
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+
+            System.out.print(node + " ");
+
+            for (int neighbour : adj.get(node)) {
+                if (!visited[neighbour]) {
+                    visited[neighbour] = true;
+                    q.offer(neighbour);
+                }
+            }
+        }
+    }
+}
+Meri recommendation
+Tumne pehle bataya tha ki Graphs ke lectures complete hain, lekin problem-solving mein confidence improve karna hai.
+Isliye ek important rule:
+Graph ke questions ko algorithm ke naam se yaad mat karna. Pehle problem ki properties identify karna.
+For example:
+* Unweighted shortest path → BFS
+
+
+* Weighted graph with non-negative edges → Dijkstra
+
+
+* Negative edge weights → Bellman-Ford
+
+
+* Dependency ordering → Topological Sort
+
+
+* Connectivity / component merging → DSU
+
+
+* Minimum total connection cost → MST
+
+
+* Bridges / articulation points → Tarjan
+
+
+Pehle 15 Must-Do questions independently solve karo. Uske baad advanced questions par jaana. Isse interview preparation focused rahegi aur algorithms ke beech confusion kam hoga.
+
+
+
+Bilkul bhai! Intervals ke liye ek complete interview-focused DSA question sheet banate hain.
+Interval problems interviews mein kaafi common hain. Inmein Sorting, Greedy, Priority Queue, Binary Search aur Sweep Line techniques use hoti hain.
+Intervals – Interview Preparation Sheet
+
+25 Core Questions
+10 Advanced Questions
+
+Pattern 1: Basic Interval Problems
+Sabse pehle interval representation [start, end], sorting aur overlapping conditions samajhna.
+#	Problem	LeetCode
+1	Merge Intervals	56	DONE
+2	Insert Interval	57	DONE
+3	Non-overlapping Intervals	435	DONE
+4	Meeting Rooms	LintCode 920
+5	Meeting Rooms II	LintCode 919
+6	Remove Covered Intervals	1288	DONE
+7	Minimum Number of Arrows to Burst Balloons	452	DONE
+Pattern 2: Greedy + Intervals
+Very important
+#	Problem	LeetCode
+8	Minimum Number of Taps to Open to Water a Garden	1326	DONE
+9	Video Stitching	1024	DONE
+10	Minimum Interval to Include Each Query	1851	DONE
+11	Maximum Length of Pair Chain	646	DONE
+12	Find Right Interval	436	DONE
+13	Maximum Number of Events That Can Be Attended	1353	DONE
+Pattern 3: Interval Scheduling + Priority Queue
+#	Problem	LeetCode
+14	Meeting Rooms III	2402	DONE
+15	My Calendar I	729	DONE
+16	My Calendar II	731
+17	My Calendar III	732	DONE
+18	Divide Intervals Into Minimum Number of Groups	2406	DONE
+Pattern 4: Sweep Line / Difference Array
+Important interview pattern
+#	Problem	LeetCode
+19	Car Pooling	1094	DONE
+20	Corporate Flight Bookings	1109	DONE
+21	The Skyline Problem	218	DONE
+22	My Calendar III	732	DONE
+Pattern 5: Binary Search + Intervals
+#	Problem	LeetCode
+23	Minimum Interval to Include Each Query	1851	DONE
+24	Find Right Interval	436	DONE
+25	Data Stream as Disjoint Intervals	352	DONE
+Additional 10 – Advanced Interview Practice
+#	Problem	LeetCode
+26	Range Module	715
+27	Employee Free Time	759
+28	Count Integers in Intervals	2276
+29	Maximum Population Year	1854
+30	Meeting Scheduler	1229
+31	Interval List Intersections	986
+32	Check if All the Integers in a Range Are Covered	1893
+33	Divide an Interval Into Minimum Number of Groups	2406
+34	Maximum Number of Visible Points	1610
+35	Minimum Number of Operations to Make Array Continuous	2009
+12 Must-Do Interval Questions
+Top Interview Priority
+1. 56 – Merge Intervals
+
+
+2. 57 – Insert Interval
+
+
+3. 435 – Non-overlapping Intervals
+
+
+4. 452 – Minimum Number of Arrows to Burst Balloons
+
+
+5. 253 – Meeting Rooms II (LintCode equivalent)
+
+
+6. 1288 – Remove Covered Intervals
+
+
+7. 986 – Interval List Intersections
+
+
+8. 1094 – Car Pooling
+
+
+9. 2406 – Divide Intervals Into Minimum Number of Groups
+
+
+10. 1851 – Minimum Interval to Include Each Query
+
+
+11. 729 – My Calendar I
+
+
+12. 218 – The Skyline Problem
+
+
+6 concepts jo master karne hain
+1. Sorting intervals by start time
+
+
+2. Overlapping interval detection
+
+
+3. Merge / Insert / Remove intervals
+
+
+4. Greedy interval scheduling
+
+
+5. Sweep Line + Difference Array
+
+
+6. Priority Queue + Binary Search with intervals
+
+
+Java basic template – Merge Intervals
+import java.util.*;
+
+class Solution {
+    public int[][] merge(int[][] intervals) {
+
+        Arrays.sort(intervals,
+            (a, b) -> Integer.compare(a[0], b[0]));
+
+        List<int[]> result = new ArrayList<>();
+
+        for (int[] interval : intervals) {
+
+            if (result.isEmpty() ||
+                result.get(result.size() - 1)[1] < interval[0]) {
+
+                result.add(interval);
+
+            } else {
+
+                result.get(result.size() - 1)[1] =
+                    Math.max(
+                        result.get(result.size() - 1)[1],
+                        interval[1]
+                    );
+            }
+        }
+
+        return result.toArray(new int[result.size()][]);
+    }
+}
+Important: Yahan < ka matlab hai ki [1, 3] aur [3, 5] overlapping maane ja rahe hain. Kuch interval problems mein endpoint touching ko overlap nahi maana jata, isliye question ki exact condition check karna.
+5-Day Study Plan
+Day	Pattern	Questions
+1	Basic Interval Problems	7
+2	Greedy + Intervals	6
+3	Priority Queue + Scheduling	5
+4	Sweep Line + Difference Array	5
+5	Binary Search + Advanced	12
+Meri recommendation
+Intervals mein sabse pehle ye 5 problems master karna:
+* Merge Intervals
+
+
+* Insert Interval
+
+
+* Non-overlapping Intervals
+
+
+* Meeting Rooms II
+
+
+* Minimum Number of Arrows to Burst Balloons
+
+
+In 5 questions se tumhe sorting, overlapping, greedy aur priority queue ka foundation milega.
+Interview trick: Interval problem dekhte hi 3 questions poochna:
+1. Kya intervals ko sort karna hai?
+
+
+2. Kya overlap merge karna hai ya avoid?
+
+
+3. Kya maximum/minimum scheduling ya simultaneous events count karne hain?
+
+
+In answers se mostly correct approach identify ho jayegi.
+
+
+
+Arrays & Hashing — Interview Preparation Sheet
+
+1. HashMap & HashSet (8 questions)
+#	LeetCode	Problem	Level
+1	1	Two Sum	Easy	DONE
+2	217	Contains Duplicate	Easy
+3	242	Valid Anagram	Easy	DONE
+4	49	Group Anagrams	Medium
+5	347	Top K Frequent Elements	Medium	DONE
+6	128	Longest Consecutive Sequence	Medium	DONE
+7	36	Valid Sudoku	Medium
+8	451	Sort Characters By Frequency	Medium	DONE
+Patterns covered: Frequency counting, hashing, grouping, set lookup, frequency + heap.
+
+2. Prefix Sum & Subarray Hashing (7 questions)
+#	LeetCode	Problem	Level
+9	303	Range Sum Query – Immutable	Easy	DONE
+10	560	Subarray Sum Equals K	Medium
+11	525	Contiguous Array	Medium	DONE
+12	523	Continuous Subarray Sum	Medium
+13	974	Subarray Sums Divisible by K	Medium	DONE
+14	930	Binary Subarrays With Sum	Medium	DONE
+15	327	Count of Range Sum	Hard	DONE
+Patterns covered: Prefix sum, prefix sum + HashMap, remainder frequency, cumulative frequency.
+
+3. Two Pointers & Sorting (8 questions)
+#	LeetCode	Problem	Level
+16	26	Remove Duplicates from Sorted Array	Easy	DONE
+17	283	Move Zeroes	Easy	DONE
+18	11	Container With Most Water	Medium	DONE
+19	15	3Sum	Medium	DONE
+20	16	3Sum Closest	Medium
+21	18	4Sum	Medium	DONE
+22	75	Sort Colors	Medium	DONE
+23	42	Trapping Rain Water	Hard	DONE
+Patterns covered: Opposite pointers, same-direction pointers, sorting + two pointers, Dutch National Flag, boundary optimization.
+
+4. Sliding Window (6 questions)
+#	LeetCode	Problem	Level
+24	219	Contains Duplicate II	Easy	DONE
+25	3	Longest Substring Without Repeating Characters	Medium	DONE
+26	438	Find All Anagrams in a String	Medium	DONE
+27	567	Permutation in String	Medium	DONE
+28	76	Minimum Window Substring	Hard	DONE
+29	239	Sliding Window Maximum	Hard	DONE
+Patterns covered: Fixed window, variable window, frequency map, character matching, monotonic deque.
+
+5. Array Manipulation & In-place Techniques (7 questions)
+#	LeetCode	Problem	Level
+30	238	Product of Array Except Self	Medium	DONE
+31	53	Maximum Subarray	Medium	DONE
+32	152	Maximum Product Subarray	Medium	DONE
+33	189	Rotate Array	Medium
+34	169	Majority Element	Easy	DONE
+35	229	Majority Element II	Medium
+36	41	First Missing Positive	Hard	DONE
+Patterns covered: Kadane's algorithm, prefix/suffix, cyclic placement, Boyer-Moore voting, in-place modification.
+
+6. Binary Search on Arrays (5 questions)
+#	LeetCode	Problem	Level
+37	33	Search in Rotated Sorted Array	Medium	DONE
+38	34	Find First and Last Position	Medium	DONE
+39	153	Find Minimum in Rotated Sorted Array	Medium	DONE
+40	162	Find Peak Element	Medium	DONE
+41	4	Median of Two Sorted Arrays	Hard	DONE
+Patterns covered: Modified binary search, search space reduction, binary search on partition.
+7. Intervals & Matrix (7 questions)
+#	LeetCode	Problem	Level
+42	56	Merge Intervals	Medium	DONE
+43	57	Insert Interval	Medium	DONE
+44	435	Non-overlapping Intervals	Medium	DONE
+45	73	Set Matrix Zeroes	Medium
+46	48	Rotate Image	Medium	DONE
+47	54	Spiral Matrix	Medium
+48	240	Search a 2D Matrix II	Medium	DONE
+Patterns covered: Interval merging, sorting by endpoints, matrix traversal, in-place matrix operations.
+
+Final priority — What should you solve first?
+If your target is product-based companies, follow this order:
+Priority	Pattern	Questions
+1	HashMap & HashSet	8
+2	Prefix Sum	7
+3	Two Pointers	8
+4	Sliding Window	6
+5	Array Manipulation	7
+6	Binary Search	5
+7	Intervals & Matrix	7
+	Total	48
+How to use this list
+For every question:
+1. First attempt without hints.
+
+
+2. Identify the underlying pattern.
+
+
+3. Explain brute force and optimized approaches.
+
+
+4. Implement optimized Java code.
+
+
+5. Write time and space complexity.
+
+
+6. Re-solve after 3 days and 7 days.
+
+
+My recommendation: Complete these 48 questions properly rather than rushing through 100 questions.
+One important thing: This list covers the major Arrays & Hashing interview patterns, not every possible interview question. After completing it, you should also practice unseen variations of these patterns.
+
+
+Bilkul bhai! Greedy DSA ka ek important topic hai. Ismein interviewer check karta hai ki tum har step par locally best decision lekar globally optimal answer nikaal sakte ho ya nahi.
+Greedy ke questions sirf ek pattern ke nahi hote. Isliye maine inhe categories mein divide kiya hai, taaki interview ke major patterns cover ho jaayein.
+Greedy – Complete Interview Question Sheet
+35 Core Questions
+10 Advanced Questions
+Java DSA
+Pattern 1: Basic Greedy
+Greedy ka foundation. In questions se start karna.
+#	Problem	Link
+1	Assign Cookies	455	DONE
+2	Lemonade Change	860
+3	Best Time to Buy and Sell Stock II	122	DONE
+4	Can Place Flowers	605
+5	Maximum Units on a Truck	1710	DONE
+6	Largest Perimeter Triangle	976
+7	Minimum Cost to Move Chips	1217	DONE
+Pattern 2: Interval Scheduling + Greedy
+#	Problem	Link
+8	Non-overlapping Intervals	435	DONE
+9	Minimum Number of Arrows to Burst Balloons	452	DONE
+10	Maximum Length of Pair Chain	646	DONE
+11	Minimum Number of Taps to Open to Water a Garden	1326	DONE
+12	Video Stitching	1024	DONE
+13	Maximum Number of Events That Can Be Attended	1353	DONE
+14	Two City Scheduling	1029	DONE
+Pattern 3: Greedy + Sorting
+#	Problem	Link
+15	Queue Reconstruction by Height	406	DONE
+16	Advantage Shuffle	870
+17	Largest Number	179	DONE
+18	Minimum Number of Platforms	GFG	DONE
+19	Minimum Increment to Make Array Unique	945
+20	Bag of Tokens	948	DONE
+Pattern 4: Greedy + Two Pointers
+#	Problem	Link
+21	Boats to Save People	881	DONE
+22	Rescue Boats	881	DONE
+23	Valid Triangle Number	611	DONE
+24	Candy	135	DONE
+Pattern 5: Greedy + Heap / Priority Queue
+High interview value
+#	Problem	Link
+25	Maximum Performance of a Team	1383	DONE
+26	IPO	502	DONE
+27	Maximum Number of Events That Can Be Attended	1353	DONE
+28	Course Schedule III	630	DONE
+29	Minimum Cost to Hire K Workers	857
+30	Furthest Building You Can Reach	1642	DONE
+Pattern 6: Greedy + String / Character Frequency
+#	Problem	Link
+31	Reorganize String	767	DONE
+32	Task Scheduler	621	DONE
+33	Partition Labels	763
+34	Remove K Digits	402	DONE
+35	Minimum Deletions to Make Character Frequencies Unique	1647	DONE
+Pattern 7: Greedy + Special Problems
+#	Problem	Link
+36	Jump Game	55	DONE
+37	Jump Game II	45
+38	Gas Station	134
+39	Minimum Number of Refueling Stops	871	DONE
+40	Patching Array	330
+Advanced – Extra Interview Practice
+#	Problem	Link
+41	Create Maximum Number	321
+42	Maximum Swap	670
+43	Wiggle Subsequence	376	DONE
+44	Remove Duplicate Letters	316
+45	Minimum Number of Operations to Make Array Continuous	2009
+46	Maximum Bags With Full Capacity of Rocks	2279
+47	Minimum Number of Coins for Fruits	2944
+48	Minimum Cost to Cut a Stick	1547	DONE
+49	Minimize Maximum Pair Sum in Array	1877
+50	Maximum Subarray	53	DONE
+Note: Kuch questions hybrid patterns hain (Greedy + DP, Heap, Sorting). Unhe greedy ke saath related technique ke roop mein rakha hai; har problem ka solution pure greedy nahi hota.
+
+Top 15 Must-Do Questions
+Agar tumhare paas limited time hai, toh pehle ye 15 complete karo:
+Priority	Problem
+1	Assign Cookies – 455
+2	Best Time to Buy and Sell Stock II – 122
+3	Jump Game – 55
+4	Jump Game II – 45
+5	Gas Station – 134
+6	Non-overlapping Intervals – 435
+7	Minimum Arrows – 452
+8	Boats to Save People – 881
+9	Candy – 135
+10	Partition Labels – 763
+11	Task Scheduler – 621
+12	Remove K Digits – 402
+13	Reorganize String – 767
+14	Course Schedule III – 630
+15	Minimum Refueling Stops – 871
+7-Day Study Plan
+Day	Topics	Questions
+1	Basic Greedy	7
+2	Interval Scheduling	7
+3	Sorting + Two Pointers	10
+4	Greedy + Heap	6
+5	String Greedy	5
+6	Jump Game + Gas Station + Refueling	5
+7	Advanced revision	10	DONE
+Greedy ke 7 concepts master karna
+1. Local vs Global Optimum: Har step ka best choice overall answer kyun dega?
+
+
+2. Sorting: Ascending/descending order mein process kyun kar rahe hain?
+
+
+3. Interval Scheduling: Maximum activities ya minimum removals.
+
+
+4. Two Pointers: Do ends se optimal pairing.
+
+
+5. Heap: Current best ya worst candidate ko efficiently choose karna.
+
+
+6. Monotonic Stack: Better future choice ke liye previous elements remove karna.
+
+
+7. Greedy Proof: Exchange argument ya invariant se prove karna ki decision correct hai.
+
+
+
+Meri advice: Tum Java DSA mein already kaafi patterns cover kar rahe ho, isliye Greedy ke 50 questions ko blindly solve mat karna. Pehle Top 15 karo, phir jis pattern mein difficulty aaye uske remaining questions solve karna.
+Greedy mein sabse important skill hai: "Main ye decision abhi kyun le raha hoon, aur mujhe kaise pata ki baad mein regret nahi hoga?"
+Isi reasoning ko develop karna interview ke liye sabse valuable hai.
